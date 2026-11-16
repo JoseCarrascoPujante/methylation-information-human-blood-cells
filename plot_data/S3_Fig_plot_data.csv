@@ -1,0 +1,64 @@
+panel,cell_population,donor,gsm,quantity,value,aggregation,unit
+A,CD4 T cells,54,GSM5652279,h(p),0.4999208671228365,donor mean over common sites,bits per CpG
+A,CD4 T cells,51,GSM5652280,h(p),0.5259719970121709,donor mean over common sites,bits per CpG
+A,CD4 T cells,49,GSM5652281,h(p),0.49690976369516254,donor mean over common sites,bits per CpG
+A,CD4 T cells,,,h(mean donor p),0.535169019021537,population summary with equal donor weights,bits per CpG
+A,CD4 T cells,,,mean donor h(p),0.5076008759433899,population summary with equal donor weights,bits per CpG
+A,B cells,54,GSM5652316,h(p),0.5277114704094166,donor mean over common sites,bits per CpG
+A,B cells,51,GSM5652317,h(p),0.48093000266757197,donor mean over common sites,bits per CpG
+A,B cells,49,GSM5652318,h(p),0.4741177773647782,donor mean over common sites,bits per CpG
+A,B cells,,,h(mean donor p),0.5263042261933707,population summary with equal donor weights,bits per CpG
+A,B cells,,,mean donor h(p),0.4942530834805889,population summary with equal donor weights,bits per CpG
+A,Monocytes,54,GSM5652302,h(p),0.45698225662529574,donor mean over common sites,bits per CpG
+A,Monocytes,51,GSM5652303,h(p),0.44528221579771143,donor mean over common sites,bits per CpG
+A,Monocytes,49,GSM5652304,h(p),0.4484103956518779,donor mean over common sites,bits per CpG
+A,Monocytes,,,h(mean donor p),0.4845056276775237,population summary with equal donor weights,bits per CpG
+A,Monocytes,,,mean donor h(p),0.4502249560249617,population summary with equal donor weights,bits per CpG
+B,CD4 T cells,54,GSM5652279,Joint entropy,1.3398608257865503,donor mean over common windows,bits per four-CpG window
+B,CD4 T cells,54,GSM5652279,Sum of marginal entropies,1.6147817926713777,donor mean over common windows,bits per four-CpG window
+B,CD4 T cells,51,GSM5652280,Joint entropy,1.3635822712667574,donor mean over common windows,bits per four-CpG window
+B,CD4 T cells,51,GSM5652280,Sum of marginal entropies,1.6777810886823106,donor mean over common windows,bits per four-CpG window
+B,CD4 T cells,49,GSM5652281,Joint entropy,1.3475526311274582,donor mean over common windows,bits per four-CpG window
+B,CD4 T cells,49,GSM5652281,Sum of marginal entropies,1.6216059046131424,donor mean over common windows,bits per four-CpG window
+B,CD4 T cells,,,Joint entropy,1.3503319093935886,population summary with equal donor weights,bits per four-CpG window
+B,CD4 T cells,,,Sum of marginal entropies,1.6380562619889434,population summary with equal donor weights,bits per four-CpG window
+B,B cells,54,GSM5652316,Joint entropy,1.2551882412787734,donor mean over common windows,bits per four-CpG window
+B,B cells,54,GSM5652316,Sum of marginal entropies,1.587795968124715,donor mean over common windows,bits per four-CpG window
+B,B cells,51,GSM5652317,Joint entropy,1.1823045726108927,donor mean over common windows,bits per four-CpG window
+B,B cells,51,GSM5652317,Sum of marginal entropies,1.4395896504277614,donor mean over common windows,bits per four-CpG window
+B,B cells,49,GSM5652318,Joint entropy,1.2337397329005344,donor mean over common windows,bits per four-CpG window
+B,B cells,49,GSM5652318,Sum of marginal entropies,1.4767382733561183,donor mean over common windows,bits per four-CpG window
+B,B cells,,,Joint entropy,1.2237441822634,population summary with equal donor weights,bits per four-CpG window
+B,B cells,,,Sum of marginal entropies,1.5013746306361984,population summary with equal donor weights,bits per four-CpG window
+B,Monocytes,54,GSM5652302,Joint entropy,1.2637234399059143,donor mean over common windows,bits per four-CpG window
+B,Monocytes,54,GSM5652302,Sum of marginal entropies,1.598946844469838,donor mean over common windows,bits per four-CpG window
+B,Monocytes,51,GSM5652303,Joint entropy,1.3370222030444063,donor mean over common windows,bits per four-CpG window
+B,Monocytes,51,GSM5652303,Sum of marginal entropies,1.6285870347122609,donor mean over common windows,bits per four-CpG window
+B,Monocytes,49,GSM5652304,Joint entropy,1.2894131816233736,donor mean over common windows,bits per four-CpG window
+B,Monocytes,49,GSM5652304,Sum of marginal entropies,1.5619864456999406,donor mean over common windows,bits per four-CpG window
+B,Monocytes,,,Joint entropy,1.2967196081912313,population summary with equal donor weights,bits per four-CpG window
+B,Monocytes,,,Sum of marginal entropies,1.5965067749606796,population summary with equal donor weights,bits per four-CpG window
+C,CD4 T cells,54,GSM5652279,Joint entropy,1.229340810085852,donor mean over common windows,bits per four-CpG window
+C,CD4 T cells,54,GSM5652279,Sum of marginal entropies,1.5412670620637028,donor mean over common windows,bits per four-CpG window
+C,CD4 T cells,51,GSM5652280,Joint entropy,1.3136145500665672,donor mean over common windows,bits per four-CpG window
+C,CD4 T cells,51,GSM5652280,Sum of marginal entropies,1.6448933137253634,donor mean over common windows,bits per four-CpG window
+C,CD4 T cells,49,GSM5652281,Joint entropy,1.2450148857983943,donor mean over common windows,bits per four-CpG window
+C,CD4 T cells,49,GSM5652281,Sum of marginal entropies,1.5548193927550829,donor mean over common windows,bits per four-CpG window
+C,CD4 T cells,,,Joint entropy,1.262656748650271,population summary with equal donor weights,bits per four-CpG window
+C,CD4 T cells,,,Sum of marginal entropies,1.5803265895147163,population summary with equal donor weights,bits per four-CpG window
+C,B cells,54,GSM5652316,Joint entropy,1.195986203288497,donor mean over common windows,bits per four-CpG window
+C,B cells,54,GSM5652316,Sum of marginal entropies,1.5474265699133836,donor mean over common windows,bits per four-CpG window
+C,B cells,51,GSM5652317,Joint entropy,1.1266820966629354,donor mean over common windows,bits per four-CpG window
+C,B cells,51,GSM5652317,Sum of marginal entropies,1.3977873801697722,donor mean over common windows,bits per four-CpG window
+C,B cells,49,GSM5652318,Joint entropy,1.125645305043868,donor mean over common windows,bits per four-CpG window
+C,B cells,49,GSM5652318,Sum of marginal entropies,1.4024933451226165,donor mean over common windows,bits per four-CpG window
+C,B cells,,,Joint entropy,1.1494378683317668,population summary with equal donor weights,bits per four-CpG window
+C,B cells,,,Sum of marginal entropies,1.4492357650685908,population summary with equal donor weights,bits per four-CpG window
+C,Monocytes,54,GSM5652302,Joint entropy,1.2342155810731366,donor mean over common windows,bits per four-CpG window
+C,Monocytes,54,GSM5652302,Sum of marginal entropies,1.5769249074356797,donor mean over common windows,bits per four-CpG window
+C,Monocytes,51,GSM5652303,Joint entropy,1.271635332585822,donor mean over common windows,bits per four-CpG window
+C,Monocytes,51,GSM5652303,Sum of marginal entropies,1.5838202780690904,donor mean over common windows,bits per four-CpG window
+C,Monocytes,49,GSM5652304,Joint entropy,1.1926329271647085,donor mean over common windows,bits per four-CpG window
+C,Monocytes,49,GSM5652304,Sum of marginal entropies,1.4933934730147382,donor mean over common windows,bits per four-CpG window
+C,Monocytes,,,Joint entropy,1.2328279469412224,population summary with equal donor weights,bits per four-CpG window
+C,Monocytes,,,Sum of marginal entropies,1.5513795528398362,population summary with equal donor weights,bits per four-CpG window

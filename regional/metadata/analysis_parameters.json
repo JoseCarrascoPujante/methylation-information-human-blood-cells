@@ -1,0 +1,32 @@
+{
+  "design": {
+    "genome_build": "hg38",
+    "chromosome": "chr1",
+    "coordinate_type": "one-based inclusive CpG indices",
+    "cpg_index_start": 100001,
+    "cpg_index_end": 120000,
+    "n_samples": 9,
+    "n_cell_populations": 3,
+    "n_matched_donors": 3,
+    "candidate_cpgs": 20000,
+    "common_sites_depth_ge_10": 18531,
+    "fraction_sites_retained": 0.92655,
+    "candidate_nonoverlap_4cpg_windows": 5000,
+    "windows_complete_fragment_depth_ge_20_all_samples": 58,
+    "fraction_windows_retained": 0.0116,
+    "rarefaction_depth": 20
+  },
+  "definitions": {
+    "site_filter": "total_count>=10 independently in each of all nine samples",
+    "window_filter": "sum of 16 complete C/T pattern counts>=20 independently in each of all nine samples",
+    "site_aggregation": "Equal donor weights at each site: A=mean_site h(mean_donor p); B=mean_site mean_donor h(p). No pooling of counts across donors.",
+    "window_marginals": "Derived exclusively from the same 16 complete-pattern counts as the joint entropy, not from the broader single-site counts.",
+    "population_window_means": "Equal-weight mean of window estimands within each donor, followed by equal-weight mean across three donors.",
+    "entropy_units": "Bits per CpG for binary site quantities; bits per four-CpG window for joint entropy, marginal sum and their difference.",
+    "rarefaction": "Exact expectation of the plug-in entropy for a size-20 sample without replacement from each observed window. Integer binomial-coefficient hypergeometric probabilities, evaluated in floating point. No simulation, iterations or random seed.",
+    "total_correlation": "Marginal entropy sum minus joint entropy, computed within each window. The depth-20 version is the expectation of this empirical difference at depth 20.",
+    "source_integrity_scope": "The input CSV hashes and count invariants are checked here. PAT integrity and PAT-to-CSV reproduction are documented separately.",
+    "uncertainty": "Descriptive donor points and equal-weight means only. Three matched biological donors; no confidence intervals, p-values or assumption of independent sites/windows.",
+    "physical_coordinates": "Not computed: no CpG-index-to-hg38-base-pair reference is an input."
+  }
+}

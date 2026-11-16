@@ -1,0 +1,43 @@
+array_column_sample,gsm,sample_title,source_cell_type,population,donor_suffix,mapping_basis
+19,GSM861653,CD4+_1,CD4+ T cells,CD4,1,GEO series sample order and published sample-title suffix
+20,GSM861654,CD4+_2,CD4+ T cells,CD4,2,GEO series sample order and published sample-title suffix
+21,GSM861655,CD4+_3,CD4+ T cells,CD4,3,GEO series sample order and published sample-title suffix
+22,GSM861656,CD4+_4,CD4+ T cells,CD4,4,GEO series sample order and published sample-title suffix
+23,GSM861657,CD4+_5,CD4+ T cells,CD4,5,GEO series sample order and published sample-title suffix
+24,GSM861658,CD4+_6,CD4+ T cells,CD4,6,GEO series sample order and published sample-title suffix
+25,GSM861659,CD8+_1,CD8+ T cells,CD8,1,GEO series sample order and published sample-title suffix
+26,GSM861660,CD8+_2,CD8+ T cells,CD8,2,GEO series sample order and published sample-title suffix
+27,GSM861661,CD8+_3,CD8+ T cells,CD8,3,GEO series sample order and published sample-title suffix
+28,GSM861662,CD8+_4,CD8+ T cells,CD8,4,GEO series sample order and published sample-title suffix
+29,GSM861663,CD8+_5,CD8+ T cells,CD8,5,GEO series sample order and published sample-title suffix
+30,GSM861664,CD8+_6,CD8+ T cells,CD8,6,GEO series sample order and published sample-title suffix
+31,GSM861665,CD14+_1,CD14+ Monocytes,Mono,1,GEO series sample order and published sample-title suffix
+32,GSM861666,CD14+_2,CD14+ Monocytes,Mono,2,GEO series sample order and published sample-title suffix
+33,GSM861667,CD14+_3,CD14+ Monocytes,Mono,3,GEO series sample order and published sample-title suffix
+34,GSM861668,CD14+_4,CD14+ Monocytes,Mono,4,GEO series sample order and published sample-title suffix
+35,GSM861669,CD14+_5,CD14+ Monocytes,Mono,5,GEO series sample order and published sample-title suffix
+36,GSM861670,CD14+_6,CD14+ Monocytes,Mono,6,GEO series sample order and published sample-title suffix
+37,GSM861671,CD19+_1,CD19+ B cells,B,1,GEO series sample order and published sample-title suffix
+38,GSM861672,CD19+_2,CD19+ B cells,B,2,GEO series sample order and published sample-title suffix
+39,GSM861673,CD19+_3,CD19+ B cells,B,3,GEO series sample order and published sample-title suffix
+40,GSM861674,CD19+_4,CD19+ B cells,B,4,GEO series sample order and published sample-title suffix
+41,GSM861675,CD19+_5,CD19+ B cells,B,5,GEO series sample order and published sample-title suffix
+42,GSM861676,CD19+_6,CD19+ B cells,B,6,GEO series sample order and published sample-title suffix
+43,GSM861677,CD56+_1,CD56+ NK cells,NK,1,GEO series sample order and published sample-title suffix
+44,GSM861678,CD56+_2,CD56+ NK cells,NK,2,GEO series sample order and published sample-title suffix
+45,GSM861679,CD56+_3,CD56+ NK cells,NK,3,GEO series sample order and published sample-title suffix
+46,GSM861680,CD56+_4,CD56+ NK cells,NK,4,GEO series sample order and published sample-title suffix
+47,GSM861681,CD56+_5,CD56+ NK cells,NK,5,GEO series sample order and published sample-title suffix
+48,GSM861682,CD56+_6,CD56+ NK cells,NK,6,GEO series sample order and published sample-title suffix
+49,GSM861683,Neu_1,Neutrophils,Neu,1,GEO series sample order and published sample-title suffix
+50,GSM861684,Neu_2,Neutrophils,Neu,2,GEO series sample order and published sample-title suffix
+51,GSM861685,Neu_3,Neutrophils,Neu,3,GEO series sample order and published sample-title suffix
+52,GSM861686,Neu_4,Neutrophils,Neu,4,GEO series sample order and published sample-title suffix
+53,GSM861687,Neu_5,Neutrophils,Neu,5,GEO series sample order and published sample-title suffix
+54,GSM861688,Neu_6,Neutrophils,Neu,6,GEO series sample order and published sample-title suffix
+55,GSM861689,Eos_1,Eosinophils,Eos,1,GEO series sample order and published sample-title suffix
+56,GSM861690,Eos_2,Eosinophils,Eos,2,GEO series sample order and published sample-title suffix
+57,GSM861691,Eos_3,Eosinophils,Eos,3,GEO series sample order and published sample-title suffix
+58,GSM861692,Eos_4,Eosinophils,Eos,4,GEO series sample order and published sample-title suffix
+59,GSM861693,Eos_5,Eosinophils,Eos,5,GEO series sample order and published sample-title suffix
+60,GSM861694,Eos_6,Eosinophils,Eos,6,GEO series sample order and published sample-title suffix

@@ -1,0 +1,17 @@
+example,binary_pattern,probability
+independent_three_fair_bits,000,0.125
+independent_three_fair_bits,001,0.125
+independent_three_fair_bits,010,0.125
+independent_three_fair_bits,011,0.125
+independent_three_fair_bits,100,0.125
+independent_three_fair_bits,101,0.125
+independent_three_fair_bits,110,0.125
+independent_three_fair_bits,111,0.125
+XOR_three_pairwise_independent_bits,000,0.25
+XOR_three_pairwise_independent_bits,001,0.0
+XOR_three_pairwise_independent_bits,010,0.0
+XOR_three_pairwise_independent_bits,011,0.25
+XOR_three_pairwise_independent_bits,100,0.0
+XOR_three_pairwise_independent_bits,101,0.25
+XOR_three_pairwise_independent_bits,110,0.25
+XOR_three_pairwise_independent_bits,111,0.0

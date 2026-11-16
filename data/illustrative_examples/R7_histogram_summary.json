@@ -1,0 +1,20 @@
+{
+  "n_cpg": 481737,
+  "n_cell_types": 7,
+  "n_donors_per_type": 6,
+  "n_bins": 50,
+  "bin_width": 0.02,
+  "bins": "left-inclusive, right-exclusive, except the final bin includes R7=1",
+  "min_R7": 0.00010264837659040542,
+  "q1_R7": 0.20563539191244998,
+  "median_R7": 0.3723781248645468,
+  "q3_R7": 0.6240350296202414,
+  "max_R7": 0.9973837014256877,
+  "count_R7_gt_0_5": 174180,
+  "percent_R7_gt_0_5": 36.15665809352406,
+  "count_R7_gt_0_8": 56850,
+  "percent_R7_gt_0_8": 11.801044968520168,
+  "definition": "R7 = sample variance of seven cell-type mean beta values divided by that variance plus mean within-type sample variance across six donors; both variances use ddof=1",
+  "eligibility": "481737 discovery cg probes passing detection-P eligibility in at least 40 of 42 samples",
+  "unit": "one value per eligible assayed cg probe, not per donor"
+}

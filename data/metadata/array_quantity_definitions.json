@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "input_scope": {
+    "discovery_eligible_probes": 481737,
+    "discovery_samples": 42,
+    "common_probes": 448510,
+    "discovery_populations": [
+      "CD4",
+      "CD8",
+      "Mono",
+      "B",
+      "NK",
+      "Neu",
+      "Eos"
+    ],
+    "spectral_populations": [
+      "CD4",
+      "CD8",
+      "Mono",
+      "B",
+      "NK",
+      "Neu"
+    ],
+    "spectral_samples": 36,
+    "signature_sizes": [
+      10,
+      25,
+      50,
+      100,
+      250,
+      500,
+      1000,
+      5000,
+      10000
+    ]
+  },
+  "precision": "float64 for beta values, means, variances, transformations and spectral calculations",
+  "definitions": {
+    "aggregation_A": "At each probe, h of the equally weighted mean beta across six donors; reported as the probe sum and median.",
+    "aggregation_B": "At each probe, the equally weighted mean of six donor-specific h(beta) values; reported as the probe sum and donor summaries.",
+    "donor_summary": "Arithmetic mean of h(beta) over 481737 probes for each identified donor/sample. Between-donor SD uses ddof=1.",
+    "R": "Sample variance of cell-type means divided by that variance plus the mean of within-cell-type sample variances. Both variance operations use ddof=1; zero denominator gives R=0.",
+    "ranking": "Descending discovery R6 among the 448510 common probes; probe identifier ascending resolves exact ties. External beta values and labels are not used.",
+    "spectral_matrix": "Selected probe rows are centered and divided by sample SD across the same 36 discovery samples. Nonzero probe-correlation eigenvalues are obtained from Z.T @ Z / 35.",
+    "constant_probes": "Rows with exactly identical beta values across all 36 discovery samples are excluded from correlation standardization. Marginal-profile sums retain all selected probes.",
+    "retained_eigenvalues": "lambda > max(1e-10, 1e-12 * largest eigenvalue)",
+    "participation_ratio": "1 / sum(q_k squared), q_k = retained lambda_k / sum(retained lambda)",
+    "effective_rank": "exp(-sum(q_k * natural_log(q_k)))",
+    "marginal_sum": "Equally weighted mean of six population-specific sums of h(donor-mean beta) over the selected probes; units bits. Spectral dimensions are dimensionless.",
+    "quantiles": "NumPy linear interpolation quantiles across the eligible probes."
+  },
+  "software": {
+    "python": "3.12.14",
+    "numpy": "2.3.5"
+  },
+  "shared_R6_ranking_file": "data/model_fits/external_discovery_ranking.csv.gz",
+  "source_accessions": [
+    "GSE35069",
+    "GSE110554"
+  ]
+}

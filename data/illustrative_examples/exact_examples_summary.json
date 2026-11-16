@@ -1,0 +1,90 @@
+{
+  "A_donor_aggregation": [
+    {
+      "example": "polarized_donor_fractions",
+      "n_constructed_donors": 6,
+      "donor_fractions": "0;0;0;1;1;1",
+      "mean_fraction": 0.5,
+      "h_mean_fraction_bits": 1.0,
+      "mean_donor_h_fraction_bits": 0.0,
+      "jensen_gap_bits": 1.0
+    },
+    {
+      "example": "identical_intermediate_donor_fractions",
+      "n_constructed_donors": 6,
+      "donor_fractions": "0.5;0.5;0.5;0.5;0.5;0.5",
+      "mean_fraction": 0.5,
+      "h_mean_fraction_bits": 1.0,
+      "mean_donor_h_fraction_bits": 1.0,
+      "jensen_gap_bits": 0.0
+    }
+  ],
+  "B_label_information": [
+    {
+      "example": "equal_class_distributions",
+      "P_class_A": 0.5,
+      "P_class_B": 0.5,
+      "P_X1_given_A": 0.5,
+      "P_X1_given_B": 0.5,
+      "H_X_bits": 1.0,
+      "H_X_given_class_bits": 1.0,
+      "I_X_class_bits": 0.0
+    },
+    {
+      "example": "unequal_class_distributions",
+      "P_class_A": 0.5,
+      "P_class_B": 0.5,
+      "P_X1_given_A": 0.5,
+      "P_X1_given_B": 0.0,
+      "H_X_bits": 0.8112781244591328,
+      "H_X_given_class_bits": 0.5,
+      "I_X_class_bits": 0.31127812445913283
+    }
+  ],
+  "C_joint_and_marginal": [
+    {
+      "example": "independent_four_fair_bits",
+      "n_binary_sites": 4,
+      "n_positive_probability_patterns": 16,
+      "marginal_probabilities": "0.5;0.5;0.5;0.5",
+      "sum_marginal_entropies_bits": 4.0,
+      "joint_entropy_bits": 4.0,
+      "total_correlation_bits": 0.0
+    },
+    {
+      "example": "TTTT_or_CCCC_equal_probability",
+      "n_binary_sites": 4,
+      "n_positive_probability_patterns": 2,
+      "marginal_probabilities": "0.5;0.5;0.5;0.5",
+      "sum_marginal_entropies_bits": 4.0,
+      "joint_entropy_bits": 1.0,
+      "total_correlation_bits": 3.0
+    }
+  ],
+  "D_spectrum_and_joint_entropy": [
+    {
+      "example": "independent_three_fair_bits",
+      "n_binary_sites": 3,
+      "n_positive_probability_patterns": 8,
+      "marginal_probabilities": "0.5;0.5;0.5",
+      "sum_marginal_entropies_bits": 3.0,
+      "joint_entropy_bits": 3.0,
+      "total_correlation_bits": 0.0,
+      "correlation_eigenvalues": "1.0;1.0;1.0",
+      "participation_ratio": 3.0,
+      "effective_rank": 2.9999999999999996
+    },
+    {
+      "example": "XOR_three_pairwise_independent_bits",
+      "n_binary_sites": 3,
+      "n_positive_probability_patterns": 4,
+      "marginal_probabilities": "0.5;0.5;0.5",
+      "sum_marginal_entropies_bits": 3.0,
+      "joint_entropy_bits": 2.0,
+      "total_correlation_bits": 1.0,
+      "correlation_eigenvalues": "1.0;1.0;1.0",
+      "participation_ratio": 3.0,
+      "effective_rank": 2.9999999999999996
+    }
+  ]
+}

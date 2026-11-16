@@ -1,0 +1,823 @@
+file,rows,column,unit_or_role
+FIGURE_DATA_MAP.csv,17,figure,"identifier, flag or count as indicated by field name and README"
+FIGURE_DATA_MAP.csv,17,panels,"identifier, flag or count as indicated by field name and README"
+FIGURE_DATA_MAP.csv,17,input_csv,"identifier, flag or count as indicated by field name and README"
+FIGURE_DATA_MAP.csv,17,script,"identifier, flag or count as indicated by field name and README"
+FIGURE_DATA_MAP.csv,17,quantity_and_units,"identifier, flag or count as indicated by field name and README"
+data/arrays/aggregation_population_summary.csv,7,population,identifier or categorical label
+data/arrays/aggregation_population_summary.csv,7,n_cpg,"identifier, flag or count as indicated by field name and README"
+data/arrays/aggregation_population_summary.csv,7,sum_A_bits,bits
+data/arrays/aggregation_population_summary.csv,7,sum_B_bits,bits
+data/arrays/aggregation_population_summary.csv,7,jensen_gap_bits,bits
+data/arrays/aggregation_population_summary.csv,7,gap_fraction_of_A,dimensionless fraction
+data/arrays/aggregation_population_summary.csv,7,median_A_across_CpGs,bits per CpG
+data/arrays/aggregation_population_summary.csv,7,donor_mean_h_beta,bits per CpG
+data/arrays/aggregation_population_summary.csv,7,donor_sd_h_beta,bits per CpG
+data/arrays/aggregation_population_summary.csv,7,mean_jensen_gap_per_CpG,bits per CpG
+data/arrays/common_R_summary.csv,2,cohort,"identifier, flag or count as indicated by field name and README"
+data/arrays/common_R_summary.csv,2,n_cpg,"identifier, flag or count as indicated by field name and README"
+data/arrays/common_R_summary.csv,2,median_R,"identifier, flag or count as indicated by field name and README"
+data/arrays/common_R_summary.csv,2,q25,"identifier, flag or count as indicated by field name and README"
+data/arrays/common_R_summary.csv,2,q75,"identifier, flag or count as indicated by field name and README"
+data/arrays/common_R_summary.csv,2,fraction_R_gt_0_5,dimensionless fraction
+data/arrays/common_R_summary.csv,2,fraction_R_gt_0_8,dimensionless fraction
+data/arrays/discovery_R7_summary.csv,1,n_cpg,"identifier, flag or count as indicated by field name and README"
+data/arrays/discovery_R7_summary.csv,1,median_R7,"identifier, flag or count as indicated by field name and README"
+data/arrays/discovery_R7_summary.csv,1,q25_R7,"identifier, flag or count as indicated by field name and README"
+data/arrays/discovery_R7_summary.csv,1,q75_R7,"identifier, flag or count as indicated by field name and README"
+data/arrays/discovery_R7_summary.csv,1,fraction_R7_gt_0_5,dimensionless fraction
+data/arrays/discovery_R7_summary.csv,1,fraction_R7_gt_0_8,dimensionless fraction
+data/arrays/discovery_R7_values.csv.gz,481737,R7,dimensionless
+data/arrays/donor_entropy_summary.csv,42,donor,identifier or categorical label
+data/arrays/donor_entropy_summary.csv,42,population,identifier or categorical label
+data/arrays/donor_entropy_summary.csv,42,mean_h_beta,bits per CpG
+data/arrays/overlap_curve.csv,6,top_cpgs,"identifier, flag or count as indicated by field name and README"
+data/arrays/overlap_curve.csv,6,overlap,"identifier, flag or count as indicated by field name and README"
+data/arrays/overlap_curve.csv,6,expected_uniform_overlap,"identifier, flag or count as indicated by field name and README"
+data/arrays/overlap_curve.csv,6,fold_enrichment,"identifier, flag or count as indicated by field name and README"
+data/arrays/overlap_curve.csv,6,shared_fraction,dimensionless fraction
+data/arrays/pairwise_distance_summary.csv,8,metric_group,"identifier, flag or count as indicated by field name and README"
+data/arrays/pairwise_distance_summary.csv,8,n,"identifier, flag or count as indicated by field name and README"
+data/arrays/pairwise_distance_summary.csv,8,mean,"identifier, flag or count as indicated by field name and README"
+data/arrays/pairwise_distance_summary.csv,8,median,"identifier, flag or count as indicated by field name and README"
+data/arrays/pairwise_distance_summary.csv,8,q25,"identifier, flag or count as indicated by field name and README"
+data/arrays/pairwise_distance_summary.csv,8,q75,"identifier, flag or count as indicated by field name and README"
+data/arrays/pairwise_distance_summary.csv,8,n_cpg,"identifier, flag or count as indicated by field name and README"
+data/arrays/pairwise_distances.csv,861,sample_a,"identifier, flag or count as indicated by field name and README"
+data/arrays/pairwise_distances.csv,861,sample_b,"identifier, flag or count as indicated by field name and README"
+data/arrays/pairwise_distances.csv,861,gsm_a,"identifier, flag or count as indicated by field name and README"
+data/arrays/pairwise_distances.csv,861,gsm_b,"identifier, flag or count as indicated by field name and README"
+data/arrays/pairwise_distances.csv,861,sample_title_a,"identifier, flag or count as indicated by field name and README"
+data/arrays/pairwise_distances.csv,861,sample_title_b,"identifier, flag or count as indicated by field name and README"
+data/arrays/pairwise_distances.csv,861,population_a,"identifier, flag or count as indicated by field name and README"
+data/arrays/pairwise_distances.csv,861,population_b,"identifier, flag or count as indicated by field name and README"
+data/arrays/pairwise_distances.csv,861,donor_suffix_a,"identifier, flag or count as indicated by field name and README"
+data/arrays/pairwise_distances.csv,861,donor_suffix_b,"identifier, flag or count as indicated by field name and README"
+data/arrays/pairwise_distances.csv,861,same_population,"identifier, flag or count as indicated by field name and README"
+data/arrays/pairwise_distances.csv,861,same_donor,"identifier, flag or count as indicated by field name and README"
+data/arrays/pairwise_distances.csv,861,n_cpg,"identifier, flag or count as indicated by field name and README"
+data/arrays/pairwise_distances.csv,861,mean_absolute_beta_distance,beta fraction
+data/arrays/pairwise_distances.csv,861,root_mean_square_beta_distance,beta fraction
+data/arrays/pattern_correlation_curve.csv,7,discovery_top_cpgs,"identifier, flag or count as indicated by field name and README"
+data/arrays/pattern_correlation_curve.csv,7,median_pattern_corr,dimensionless correlation or associated count; see field name
+data/arrays/pattern_correlation_curve.csv,7,q25,"identifier, flag or count as indicated by field name and README"
+data/arrays/pattern_correlation_curve.csv,7,q75,"identifier, flag or count as indicated by field name and README"
+data/arrays/pattern_correlation_curve.csv,7,n_finite,"identifier, flag or count as indicated by field name and README"
+data/arrays/probe_reproducibility_common_cg.csv.gz,448510,probe_id,identifier or categorical label
+data/arrays/probe_reproducibility_common_cg.csv.gz,448510,R_discovery,dimensionless
+data/arrays/probe_reproducibility_common_cg.csv.gz,448510,R_validation,dimensionless
+data/arrays/probe_reproducibility_common_cg.csv.gz,448510,pattern_corr,dimensionless correlation or associated count; see field name
+data/metadata/cg24418853_sample_beta.csv,49,probe_id,identifier or categorical label
+data/metadata/cg24418853_sample_beta.csv,49,array_id,identifier or categorical label
+data/metadata/cg24418853_sample_beta.csv,49,unmethylated_signal,"identifier, flag or count as indicated by field name and README"
+data/metadata/cg24418853_sample_beta.csv,49,methylated_signal,"identifier, flag or count as indicated by field name and README"
+data/metadata/cg24418853_sample_beta.csv,49,detection_p,"identifier, flag or count as indicated by field name and README"
+data/metadata/cg24418853_sample_beta.csv,49,beta,dimensionless fraction
+data/metadata/cg24418853_sample_beta.csv,49,gsm,identifier or categorical label
+data/metadata/cg24418853_sample_beta.csv,49,sample_title,"identifier, flag or count as indicated by field name and README"
+data/metadata/cg24418853_sample_beta.csv,49,population,identifier or categorical label
+data/metadata/cg24418853_sample_beta.csv,49,included,"identifier, flag or count as indicated by field name and README"
+data/metadata/cg24418853_sample_beta.csv,49,exclusion_reason,"identifier, flag or count as indicated by field name and README"
+data/metadata/discovery_sample_mapping.csv,42,array_column_sample,"identifier, flag or count as indicated by field name and README"
+data/metadata/discovery_sample_mapping.csv,42,gsm,identifier or categorical label
+data/metadata/discovery_sample_mapping.csv,42,sample_title,"identifier, flag or count as indicated by field name and README"
+data/metadata/discovery_sample_mapping.csv,42,source_cell_type,"identifier, flag or count as indicated by field name and README"
+data/metadata/discovery_sample_mapping.csv,42,population,identifier or categorical label
+data/metadata/discovery_sample_mapping.csv,42,donor_suffix,"identifier, flag or count as indicated by field name and README"
+data/metadata/discovery_sample_mapping.csv,42,mapping_basis,"identifier, flag or count as indicated by field name and README"
+data/metadata/external_array_sample_map.csv,49,gsm,identifier or categorical label
+data/metadata/external_array_sample_map.csv,49,sample_title,"identifier, flag or count as indicated by field name and README"
+data/metadata/external_array_sample_map.csv,49,array_id,identifier or categorical label
+data/metadata/external_array_sample_map.csv,49,population,identifier or categorical label
+data/metadata/external_array_sample_map.csv,49,included,"identifier, flag or count as indicated by field name and README"
+data/metadata/external_array_sample_map.csv,49,exclusion_reason,"identifier, flag or count as indicated by field name and README"
+data/spectral/external_signature_top10000.csv.gz,10000,probe_id,identifier or categorical label
+data/spectral/external_signature_top10000.csv.gz,10000,R_discovery,dimensionless
+data/spectral/external_signature_top10000.csv.gz,10000,R_validation,dimensionless
+data/spectral/external_signature_top10000.csv.gz,10000,pattern_corr,dimensionless correlation or associated count; see field name
+data/spectral/external_signature_top10000.csv.gz,10000,discovery_rank,"identifier, flag or count as indicated by field name and README"
+data/spectral/signature_full_eigenvalue_spectra.csv,280,n_cpg,"identifier, flag or count as indicated by field name and README"
+data/spectral/signature_full_eigenvalue_spectra.csv,280,eigen_index,"identifier, flag or count as indicated by field name and README"
+data/spectral/signature_full_eigenvalue_spectra.csv,280,eigenvalue,dimensionless
+data/spectral/signature_full_eigenvalue_spectra.csv,280,normalized_eigenvalue,dimensionless
+data/spectral/signature_summary_current.csv,9,n_cpg,"identifier, flag or count as indicated by field name and README"
+data/spectral/signature_summary_current.csv,9,mean_marginal_sum_bits,bits
+data/spectral/signature_summary_current.csv,9,participation_ratio_dimension,dimensionless
+data/spectral/signature_summary_current.csv,9,effective_rank,dimensionless
+data/spectral/signature_summary_current.csv,9,numerical_rank,dimensionless
+data/spectral/signature_summary_current.csv,9,n_constant_excluded,"identifier, flag or count as indicated by field name and README"
+plot_data/Fig1_plot_data.csv,1001,p,dimensionless fraction
+plot_data/Fig1_plot_data.csv,1001,binary_entropy_bits,bits
+plot_data/Fig1_quantity_definitions.csv,4,panel,"identifier, flag or count as indicated by field name and README"
+plot_data/Fig1_quantity_definitions.csv,4,quantity,"identifier, flag or count as indicated by field name and README"
+plot_data/Fig1_quantity_definitions.csv,4,unit,"identifier, flag or count as indicated by field name and README"
+plot_data/Fig1_quantity_definitions.csv,4,definition,"identifier, flag or count as indicated by field name and README"
+plot_data/Fig4_plot_data.csv,36,panel,"identifier, flag or count as indicated by field name and README"
+plot_data/Fig4_plot_data.csv,36,group,"identifier, flag or count as indicated by field name and README"
+plot_data/Fig4_plot_data.csv,36,quantity,"identifier, flag or count as indicated by field name and README"
+plot_data/Fig4_plot_data.csv,36,value,"identifier, flag or count as indicated by field name and README"
+plot_data/Fig4_plot_data.csv,36,unit,"identifier, flag or count as indicated by field name and README"
+plot_data/S3_Fig_plot_data.csv,63,panel,"identifier, flag or count as indicated by field name and README"
+plot_data/S3_Fig_plot_data.csv,63,cell_population,identifier or categorical label
+plot_data/S3_Fig_plot_data.csv,63,donor,identifier or categorical label
+plot_data/S3_Fig_plot_data.csv,63,gsm,identifier or categorical label
+plot_data/S3_Fig_plot_data.csv,63,quantity,"identifier, flag or count as indicated by field name and README"
+plot_data/S3_Fig_plot_data.csv,63,value,"identifier, flag or count as indicated by field name and README"
+plot_data/S3_Fig_plot_data.csv,63,aggregation,"identifier, flag or count as indicated by field name and README"
+plot_data/S3_Fig_plot_data.csv,63,unit,"identifier, flag or count as indicated by field name and README"
+plot_data/S4_Fig_design_parameters.csv,12,component,"identifier, flag or count as indicated by field name and README"
+plot_data/S4_Fig_design_parameters.csv,12,parameter,"identifier, flag or count as indicated by field name and README"
+plot_data/S4_Fig_design_parameters.csv,12,value,"identifier, flag or count as indicated by field name and README"
+regional/metadata/sample_count_summary.csv,9,gsm,identifier or categorical label
+regional/metadata/sample_count_summary.csv,9,cell_population,identifier or categorical label
+regional/metadata/sample_count_summary.csv,9,population,identifier or categorical label
+regional/metadata/sample_count_summary.csv,9,donor_id,identifier or categorical label
+regional/metadata/sample_count_summary.csv,9,candidate_sites,"identifier, flag or count as indicated by field name and README"
+regional/metadata/sample_count_summary.csv,9,candidate_windows,"identifier, flag or count as indicated by field name and README"
+regional/metadata/sample_count_summary.csv,9,sites_with_observed_calls,"identifier, flag or count as indicated by field name and README"
+regional/metadata/sample_count_summary.csv,9,sites_depth_ge_10,"identifier, flag or count as indicated by field name and README"
+regional/metadata/sample_count_summary.csv,9,windows_with_complete_patterns,"identifier, flag or count as indicated by field name and README"
+regional/metadata/sample_count_summary.csv,9,windows_depth_ge_20,"identifier, flag or count as indicated by field name and README"
+regional/metadata/sample_count_summary.csv,9,methylated_calls,"identifier, flag or count as indicated by field name and README"
+regional/metadata/sample_count_summary.csv,9,total_calls,"identifier, flag or count as indicated by field name and README"
+regional/metadata/sample_count_summary.csv,9,complete_window_observations,"identifier, flag or count as indicated by field name and README"
+regional/metadata/sample_metadata.csv,9,gsm,identifier or categorical label
+regional/metadata/sample_metadata.csv,9,sample_name,identifier or categorical label
+regional/metadata/sample_metadata.csv,9,population,identifier or categorical label
+regional/metadata/sample_metadata.csv,9,donor_id,identifier or categorical label
+regional/metadata/sample_metadata.csv,9,cell_type,identifier or categorical label
+regional/metadata/sample_metadata.csv,9,age,"identifier, flag or count as indicated by field name and README"
+regional/metadata/sample_metadata.csv,9,sex,"identifier, flag or count as indicated by field name and README"
+regional/metadata/sample_metadata.csv,9,published_sheet,"identifier, flag or count as indicated by field name and README"
+regional/metadata/sample_metadata.csv,9,published_excel_row,"identifier, flag or count as indicated by field name and README"
+regional/metadata/sample_metadata.csv,9,public_pat_url,"identifier, flag or count as indicated by field name and README"
+regional/metadata/sample_metadata.csv,9,regional_counts_available,"identifier, flag or count as indicated by field name and README"
+regional/results/pat_donor_site_entropy_points.csv,9,gsm,identifier or categorical label
+regional/results/pat_donor_site_entropy_points.csv,9,cell_population,identifier or categorical label
+regional/results/pat_donor_site_entropy_points.csv,9,donor,identifier or categorical label
+regional/results/pat_donor_site_entropy_points.csv,9,n_sites,"identifier, flag or count as indicated by field name and README"
+regional/results/pat_donor_site_entropy_points.csv,9,mean_site_entropy,bits per CpG
+regional/results/pat_donor_window_entropy_summary.csv,9,gsm,identifier or categorical label
+regional/results/pat_donor_window_entropy_summary.csv,9,cell_population,identifier or categorical label
+regional/results/pat_donor_window_entropy_summary.csv,9,donor,identifier or categorical label
+regional/results/pat_donor_window_entropy_summary.csv,9,n_blocks,"identifier, flag or count as indicated by field name and README"
+regional/results/pat_donor_window_entropy_summary.csv,9,observed_joint,bits per four-CpG window
+regional/results/pat_donor_window_entropy_summary.csv,9,observed_marginal_sum,bits per four-CpG window
+regional/results/pat_donor_window_entropy_summary.csv,9,observed_total_correlation,bits per four-CpG window
+regional/results/pat_donor_window_entropy_summary.csv,9,depth20_joint,bits per four-CpG window
+regional/results/pat_donor_window_entropy_summary.csv,9,depth20_marginal_sum,bits per four-CpG window
+regional/results/pat_donor_window_entropy_summary.csv,9,depth20_total_correlation,bits per four-CpG window
+regional/results/pat_population_aggregation_summary.csv,3,cell_population,identifier or categorical label
+regional/results/pat_population_aggregation_summary.csv,3,n_donors,"identifier, flag or count as indicated by field name and README"
+regional/results/pat_population_aggregation_summary.csv,3,n_sites,"identifier, flag or count as indicated by field name and README"
+regional/results/pat_population_aggregation_summary.csv,3,mean_h_mean_fraction,bits per CpG
+regional/results/pat_population_aggregation_summary.csv,3,mean_donor_h_fraction,bits per CpG
+regional/results/pat_population_aggregation_summary.csv,3,jensen_gap,bits per CpG
+regional/results/pat_population_window_entropy_summary.csv,3,cell_population,identifier or categorical label
+regional/results/pat_population_window_entropy_summary.csv,3,n_donors,"identifier, flag or count as indicated by field name and README"
+regional/results/pat_population_window_entropy_summary.csv,3,n_blocks,"identifier, flag or count as indicated by field name and README"
+regional/results/pat_population_window_entropy_summary.csv,3,observed_joint,bits per four-CpG window
+regional/results/pat_population_window_entropy_summary.csv,3,observed_marginal_sum,bits per four-CpG window
+regional/results/pat_population_window_entropy_summary.csv,3,observed_total_correlation,bits per four-CpG window
+regional/results/pat_population_window_entropy_summary.csv,3,depth20_joint,bits per four-CpG window
+regional/results/pat_population_window_entropy_summary.csv,3,depth20_marginal_sum,bits per four-CpG window
+regional/results/pat_population_window_entropy_summary.csv,3,depth20_total_correlation,bits per four-CpG window
+regional/results/pat_samples.csv,9,gsm,identifier or categorical label
+regional/results/pat_samples.csv,9,cell_population,identifier or categorical label
+regional/results/pat_samples.csv,9,donor,identifier or categorical label
+regional/results/pat_samples.csv,9,sample_name,identifier or categorical label
+regional/results/pat_site_common_mask.csv.gz,20000,cpg_index,"hg38 chr1 CpG index, one-based inclusive"
+regional/results/pat_site_common_mask.csv.gz,20000,minimum_depth,"identifier, flag or count as indicated by field name and README"
+regional/results/pat_site_common_mask.csv.gz,20000,samples_passing,"identifier, flag or count as indicated by field name and README"
+regional/results/pat_site_common_mask.csv.gz,20000,retained_all_nine,"identifier, flag or count as indicated by field name and README"
+regional/results/pat_site_common_mask.csv.gz,20000,GSM5652279_depth,"identifier, flag or count as indicated by field name and README"
+regional/results/pat_site_common_mask.csv.gz,20000,GSM5652280_depth,"identifier, flag or count as indicated by field name and README"
+regional/results/pat_site_common_mask.csv.gz,20000,GSM5652281_depth,"identifier, flag or count as indicated by field name and README"
+regional/results/pat_site_common_mask.csv.gz,20000,GSM5652316_depth,"identifier, flag or count as indicated by field name and README"
+regional/results/pat_site_common_mask.csv.gz,20000,GSM5652317_depth,"identifier, flag or count as indicated by field name and README"
+regional/results/pat_site_common_mask.csv.gz,20000,GSM5652318_depth,"identifier, flag or count as indicated by field name and README"
+regional/results/pat_site_common_mask.csv.gz,20000,GSM5652302_depth,"identifier, flag or count as indicated by field name and README"
+regional/results/pat_site_common_mask.csv.gz,20000,GSM5652303_depth,"identifier, flag or count as indicated by field name and README"
+regional/results/pat_site_common_mask.csv.gz,20000,GSM5652304_depth,"identifier, flag or count as indicated by field name and README"
+regional/results/pat_window_common_mask.csv.gz,5000,block_start_index,"hg38 chr1 CpG index, one-based inclusive"
+regional/results/pat_window_common_mask.csv.gz,5000,block_end_index,"hg38 chr1 CpG index, one-based inclusive"
+regional/results/pat_window_common_mask.csv.gz,5000,minimum_depth,"identifier, flag or count as indicated by field name and README"
+regional/results/pat_window_common_mask.csv.gz,5000,samples_passing,"identifier, flag or count as indicated by field name and README"
+regional/results/pat_window_common_mask.csv.gz,5000,retained_all_nine,"identifier, flag or count as indicated by field name and README"
+regional/results/pat_window_common_mask.csv.gz,5000,GSM5652279_depth,"identifier, flag or count as indicated by field name and README"
+regional/results/pat_window_common_mask.csv.gz,5000,GSM5652280_depth,"identifier, flag or count as indicated by field name and README"
+regional/results/pat_window_common_mask.csv.gz,5000,GSM5652281_depth,"identifier, flag or count as indicated by field name and README"
+regional/results/pat_window_common_mask.csv.gz,5000,GSM5652316_depth,"identifier, flag or count as indicated by field name and README"
+regional/results/pat_window_common_mask.csv.gz,5000,GSM5652317_depth,"identifier, flag or count as indicated by field name and README"
+regional/results/pat_window_common_mask.csv.gz,5000,GSM5652318_depth,"identifier, flag or count as indicated by field name and README"
+regional/results/pat_window_common_mask.csv.gz,5000,GSM5652302_depth,"identifier, flag or count as indicated by field name and README"
+regional/results/pat_window_common_mask.csv.gz,5000,GSM5652303_depth,"identifier, flag or count as indicated by field name and README"
+regional/results/pat_window_common_mask.csv.gz,5000,GSM5652304_depth,"identifier, flag or count as indicated by field name and README"
+regional/results/pat_window_counts_common.csv.gz,522,gsm,identifier or categorical label
+regional/results/pat_window_counts_common.csv.gz,522,cell_population,identifier or categorical label
+regional/results/pat_window_counts_common.csv.gz,522,donor,identifier or categorical label
+regional/results/pat_window_counts_common.csv.gz,522,block_start_index,"hg38 chr1 CpG index, one-based inclusive"
+regional/results/pat_window_counts_common.csv.gz,522,block_end_index,"hg38 chr1 CpG index, one-based inclusive"
+regional/results/pat_window_counts_common.csv.gz,522,complete_depth,complete-fragment count
+regional/results/pat_window_counts_common.csv.gz,522,joint_entropy,bits per four-CpG window
+regional/results/pat_window_counts_common.csv.gz,522,marginal_sum,bits per four-CpG window
+regional/results/pat_window_counts_common.csv.gz,522,total_correlation,bits per four-CpG window
+regional/results/pat_window_counts_common.csv.gz,522,depth20_joint,bits per four-CpG window
+regional/results/pat_window_counts_common.csv.gz,522,depth20_marginal_sum,bits per four-CpG window
+regional/results/pat_window_counts_common.csv.gz,522,depth20_total_correlation,bits per four-CpG window
+regional/results/pat_window_counts_common.csv.gz,522,count_TTTT,complete-fragment count
+regional/results/pat_window_counts_common.csv.gz,522,count_TTTC,complete-fragment count
+regional/results/pat_window_counts_common.csv.gz,522,count_TTCT,complete-fragment count
+regional/results/pat_window_counts_common.csv.gz,522,count_TTCC,complete-fragment count
+regional/results/pat_window_counts_common.csv.gz,522,count_TCTT,complete-fragment count
+regional/results/pat_window_counts_common.csv.gz,522,count_TCTC,complete-fragment count
+regional/results/pat_window_counts_common.csv.gz,522,count_TCCT,complete-fragment count
+regional/results/pat_window_counts_common.csv.gz,522,count_TCCC,complete-fragment count
+regional/results/pat_window_counts_common.csv.gz,522,count_CTTT,complete-fragment count
+regional/results/pat_window_counts_common.csv.gz,522,count_CTTC,complete-fragment count
+regional/results/pat_window_counts_common.csv.gz,522,count_CTCT,complete-fragment count
+regional/results/pat_window_counts_common.csv.gz,522,count_CTCC,complete-fragment count
+regional/results/pat_window_counts_common.csv.gz,522,count_CCTT,complete-fragment count
+regional/results/pat_window_counts_common.csv.gz,522,count_CCTC,complete-fragment count
+regional/results/pat_window_counts_common.csv.gz,522,count_CCCT,complete-fragment count
+regional/results/pat_window_counts_common.csv.gz,522,count_CCCC,complete-fragment count
+regional/results/regional_design_summary.csv,1,genome_build,"identifier, flag or count as indicated by field name and README"
+regional/results/regional_design_summary.csv,1,chromosome,"identifier, flag or count as indicated by field name and README"
+regional/results/regional_design_summary.csv,1,coordinate_type,"identifier, flag or count as indicated by field name and README"
+regional/results/regional_design_summary.csv,1,cpg_index_start,"identifier, flag or count as indicated by field name and README"
+regional/results/regional_design_summary.csv,1,cpg_index_end,"identifier, flag or count as indicated by field name and README"
+regional/results/regional_design_summary.csv,1,n_samples,"identifier, flag or count as indicated by field name and README"
+regional/results/regional_design_summary.csv,1,n_cell_populations,"identifier, flag or count as indicated by field name and README"
+regional/results/regional_design_summary.csv,1,n_matched_donors,"identifier, flag or count as indicated by field name and README"
+regional/results/regional_design_summary.csv,1,candidate_cpgs,"identifier, flag or count as indicated by field name and README"
+regional/results/regional_design_summary.csv,1,common_sites_depth_ge_10,"identifier, flag or count as indicated by field name and README"
+regional/results/regional_design_summary.csv,1,fraction_sites_retained,dimensionless fraction
+regional/results/regional_design_summary.csv,1,candidate_nonoverlap_4cpg_windows,"identifier, flag or count as indicated by field name and README"
+regional/results/regional_design_summary.csv,1,windows_complete_fragment_depth_ge_20_all_samples,"identifier, flag or count as indicated by field name and README"
+regional/results/regional_design_summary.csv,1,fraction_windows_retained,dimensionless fraction
+regional/results/regional_design_summary.csv,1,rarefaction_depth,"identifier, flag or count as indicated by field name and README"
+regional/samples/GSM5652279/counts/GSM5652279_candidate_site_counts.csv,20000,gsm,identifier or categorical label
+regional/samples/GSM5652279/counts/GSM5652279_candidate_site_counts.csv,20000,population,identifier or categorical label
+regional/samples/GSM5652279/counts/GSM5652279_candidate_site_counts.csv,20000,donor_id_from_metadata,identifier or categorical label
+regional/samples/GSM5652279/counts/GSM5652279_candidate_site_counts.csv,20000,cpg_index,"hg38 chr1 CpG index, one-based inclusive"
+regional/samples/GSM5652279/counts/GSM5652279_candidate_site_counts.csv,20000,methylated_count,observed call count
+regional/samples/GSM5652279/counts/GSM5652279_candidate_site_counts.csv,20000,total_count,observed call count
+regional/samples/GSM5652279/counts/GSM5652279_candidate_site_counts.csv,20000,sample_depth_ge_10,"identifier, flag or count as indicated by field name and README"
+regional/samples/GSM5652279/counts/GSM5652279_candidate_window_counts.csv,5000,gsm,identifier or categorical label
+regional/samples/GSM5652279/counts/GSM5652279_candidate_window_counts.csv,5000,population,identifier or categorical label
+regional/samples/GSM5652279/counts/GSM5652279_candidate_window_counts.csv,5000,donor_id_from_metadata,identifier or categorical label
+regional/samples/GSM5652279/counts/GSM5652279_candidate_window_counts.csv,5000,block_start_index,"hg38 chr1 CpG index, one-based inclusive"
+regional/samples/GSM5652279/counts/GSM5652279_candidate_window_counts.csv,5000,block_end_index,"hg38 chr1 CpG index, one-based inclusive"
+regional/samples/GSM5652279/counts/GSM5652279_candidate_window_counts.csv,5000,complete_depth,complete-fragment count
+regional/samples/GSM5652279/counts/GSM5652279_candidate_window_counts.csv,5000,sample_depth_ge_20,"identifier, flag or count as indicated by field name and README"
+regional/samples/GSM5652279/counts/GSM5652279_candidate_window_counts.csv,5000,count_TTTT,complete-fragment count
+regional/samples/GSM5652279/counts/GSM5652279_candidate_window_counts.csv,5000,count_TTTC,complete-fragment count
+regional/samples/GSM5652279/counts/GSM5652279_candidate_window_counts.csv,5000,count_TTCT,complete-fragment count
+regional/samples/GSM5652279/counts/GSM5652279_candidate_window_counts.csv,5000,count_TTCC,complete-fragment count
+regional/samples/GSM5652279/counts/GSM5652279_candidate_window_counts.csv,5000,count_TCTT,complete-fragment count
+regional/samples/GSM5652279/counts/GSM5652279_candidate_window_counts.csv,5000,count_TCTC,complete-fragment count
+regional/samples/GSM5652279/counts/GSM5652279_candidate_window_counts.csv,5000,count_TCCT,complete-fragment count
+regional/samples/GSM5652279/counts/GSM5652279_candidate_window_counts.csv,5000,count_TCCC,complete-fragment count
+regional/samples/GSM5652279/counts/GSM5652279_candidate_window_counts.csv,5000,count_CTTT,complete-fragment count
+regional/samples/GSM5652279/counts/GSM5652279_candidate_window_counts.csv,5000,count_CTTC,complete-fragment count
+regional/samples/GSM5652279/counts/GSM5652279_candidate_window_counts.csv,5000,count_CTCT,complete-fragment count
+regional/samples/GSM5652279/counts/GSM5652279_candidate_window_counts.csv,5000,count_CTCC,complete-fragment count
+regional/samples/GSM5652279/counts/GSM5652279_candidate_window_counts.csv,5000,count_CCTT,complete-fragment count
+regional/samples/GSM5652279/counts/GSM5652279_candidate_window_counts.csv,5000,count_CCTC,complete-fragment count
+regional/samples/GSM5652279/counts/GSM5652279_candidate_window_counts.csv,5000,count_CCCT,complete-fragment count
+regional/samples/GSM5652279/counts/GSM5652279_candidate_window_counts.csv,5000,count_CCCC,complete-fragment count
+regional/samples/GSM5652280/counts/GSM5652280_candidate_site_counts.csv,20000,gsm,identifier or categorical label
+regional/samples/GSM5652280/counts/GSM5652280_candidate_site_counts.csv,20000,population,identifier or categorical label
+regional/samples/GSM5652280/counts/GSM5652280_candidate_site_counts.csv,20000,donor_id_from_metadata,identifier or categorical label
+regional/samples/GSM5652280/counts/GSM5652280_candidate_site_counts.csv,20000,cpg_index,"hg38 chr1 CpG index, one-based inclusive"
+regional/samples/GSM5652280/counts/GSM5652280_candidate_site_counts.csv,20000,methylated_count,observed call count
+regional/samples/GSM5652280/counts/GSM5652280_candidate_site_counts.csv,20000,total_count,observed call count
+regional/samples/GSM5652280/counts/GSM5652280_candidate_site_counts.csv,20000,sample_depth_ge_10,"identifier, flag or count as indicated by field name and README"
+regional/samples/GSM5652280/counts/GSM5652280_candidate_window_counts.csv,5000,gsm,identifier or categorical label
+regional/samples/GSM5652280/counts/GSM5652280_candidate_window_counts.csv,5000,population,identifier or categorical label
+regional/samples/GSM5652280/counts/GSM5652280_candidate_window_counts.csv,5000,donor_id_from_metadata,identifier or categorical label
+regional/samples/GSM5652280/counts/GSM5652280_candidate_window_counts.csv,5000,block_start_index,"hg38 chr1 CpG index, one-based inclusive"
+regional/samples/GSM5652280/counts/GSM5652280_candidate_window_counts.csv,5000,block_end_index,"hg38 chr1 CpG index, one-based inclusive"
+regional/samples/GSM5652280/counts/GSM5652280_candidate_window_counts.csv,5000,complete_depth,complete-fragment count
+regional/samples/GSM5652280/counts/GSM5652280_candidate_window_counts.csv,5000,sample_depth_ge_20,"identifier, flag or count as indicated by field name and README"
+regional/samples/GSM5652280/counts/GSM5652280_candidate_window_counts.csv,5000,count_TTTT,complete-fragment count
+regional/samples/GSM5652280/counts/GSM5652280_candidate_window_counts.csv,5000,count_TTTC,complete-fragment count
+regional/samples/GSM5652280/counts/GSM5652280_candidate_window_counts.csv,5000,count_TTCT,complete-fragment count
+regional/samples/GSM5652280/counts/GSM5652280_candidate_window_counts.csv,5000,count_TTCC,complete-fragment count
+regional/samples/GSM5652280/counts/GSM5652280_candidate_window_counts.csv,5000,count_TCTT,complete-fragment count
+regional/samples/GSM5652280/counts/GSM5652280_candidate_window_counts.csv,5000,count_TCTC,complete-fragment count
+regional/samples/GSM5652280/counts/GSM5652280_candidate_window_counts.csv,5000,count_TCCT,complete-fragment count
+regional/samples/GSM5652280/counts/GSM5652280_candidate_window_counts.csv,5000,count_TCCC,complete-fragment count
+regional/samples/GSM5652280/counts/GSM5652280_candidate_window_counts.csv,5000,count_CTTT,complete-fragment count
+regional/samples/GSM5652280/counts/GSM5652280_candidate_window_counts.csv,5000,count_CTTC,complete-fragment count
+regional/samples/GSM5652280/counts/GSM5652280_candidate_window_counts.csv,5000,count_CTCT,complete-fragment count
+regional/samples/GSM5652280/counts/GSM5652280_candidate_window_counts.csv,5000,count_CTCC,complete-fragment count
+regional/samples/GSM5652280/counts/GSM5652280_candidate_window_counts.csv,5000,count_CCTT,complete-fragment count
+regional/samples/GSM5652280/counts/GSM5652280_candidate_window_counts.csv,5000,count_CCTC,complete-fragment count
+regional/samples/GSM5652280/counts/GSM5652280_candidate_window_counts.csv,5000,count_CCCT,complete-fragment count
+regional/samples/GSM5652280/counts/GSM5652280_candidate_window_counts.csv,5000,count_CCCC,complete-fragment count
+regional/samples/GSM5652281/counts/GSM5652281_candidate_site_counts.csv,20000,gsm,identifier or categorical label
+regional/samples/GSM5652281/counts/GSM5652281_candidate_site_counts.csv,20000,population,identifier or categorical label
+regional/samples/GSM5652281/counts/GSM5652281_candidate_site_counts.csv,20000,donor_id_from_metadata,identifier or categorical label
+regional/samples/GSM5652281/counts/GSM5652281_candidate_site_counts.csv,20000,cpg_index,"hg38 chr1 CpG index, one-based inclusive"
+regional/samples/GSM5652281/counts/GSM5652281_candidate_site_counts.csv,20000,methylated_count,observed call count
+regional/samples/GSM5652281/counts/GSM5652281_candidate_site_counts.csv,20000,total_count,observed call count
+regional/samples/GSM5652281/counts/GSM5652281_candidate_site_counts.csv,20000,sample_depth_ge_10,"identifier, flag or count as indicated by field name and README"
+regional/samples/GSM5652281/counts/GSM5652281_candidate_window_counts.csv,5000,gsm,identifier or categorical label
+regional/samples/GSM5652281/counts/GSM5652281_candidate_window_counts.csv,5000,population,identifier or categorical label
+regional/samples/GSM5652281/counts/GSM5652281_candidate_window_counts.csv,5000,donor_id_from_metadata,identifier or categorical label
+regional/samples/GSM5652281/counts/GSM5652281_candidate_window_counts.csv,5000,block_start_index,"hg38 chr1 CpG index, one-based inclusive"
+regional/samples/GSM5652281/counts/GSM5652281_candidate_window_counts.csv,5000,block_end_index,"hg38 chr1 CpG index, one-based inclusive"
+regional/samples/GSM5652281/counts/GSM5652281_candidate_window_counts.csv,5000,complete_depth,complete-fragment count
+regional/samples/GSM5652281/counts/GSM5652281_candidate_window_counts.csv,5000,sample_depth_ge_20,"identifier, flag or count as indicated by field name and README"
+regional/samples/GSM5652281/counts/GSM5652281_candidate_window_counts.csv,5000,count_TTTT,complete-fragment count
+regional/samples/GSM5652281/counts/GSM5652281_candidate_window_counts.csv,5000,count_TTTC,complete-fragment count
+regional/samples/GSM5652281/counts/GSM5652281_candidate_window_counts.csv,5000,count_TTCT,complete-fragment count
+regional/samples/GSM5652281/counts/GSM5652281_candidate_window_counts.csv,5000,count_TTCC,complete-fragment count
+regional/samples/GSM5652281/counts/GSM5652281_candidate_window_counts.csv,5000,count_TCTT,complete-fragment count
+regional/samples/GSM5652281/counts/GSM5652281_candidate_window_counts.csv,5000,count_TCTC,complete-fragment count
+regional/samples/GSM5652281/counts/GSM5652281_candidate_window_counts.csv,5000,count_TCCT,complete-fragment count
+regional/samples/GSM5652281/counts/GSM5652281_candidate_window_counts.csv,5000,count_TCCC,complete-fragment count
+regional/samples/GSM5652281/counts/GSM5652281_candidate_window_counts.csv,5000,count_CTTT,complete-fragment count
+regional/samples/GSM5652281/counts/GSM5652281_candidate_window_counts.csv,5000,count_CTTC,complete-fragment count
+regional/samples/GSM5652281/counts/GSM5652281_candidate_window_counts.csv,5000,count_CTCT,complete-fragment count
+regional/samples/GSM5652281/counts/GSM5652281_candidate_window_counts.csv,5000,count_CTCC,complete-fragment count
+regional/samples/GSM5652281/counts/GSM5652281_candidate_window_counts.csv,5000,count_CCTT,complete-fragment count
+regional/samples/GSM5652281/counts/GSM5652281_candidate_window_counts.csv,5000,count_CCTC,complete-fragment count
+regional/samples/GSM5652281/counts/GSM5652281_candidate_window_counts.csv,5000,count_CCCT,complete-fragment count
+regional/samples/GSM5652281/counts/GSM5652281_candidate_window_counts.csv,5000,count_CCCC,complete-fragment count
+regional/samples/GSM5652302/counts/GSM5652302_candidate_site_counts.csv,20000,gsm,identifier or categorical label
+regional/samples/GSM5652302/counts/GSM5652302_candidate_site_counts.csv,20000,population,identifier or categorical label
+regional/samples/GSM5652302/counts/GSM5652302_candidate_site_counts.csv,20000,donor_id_from_metadata,identifier or categorical label
+regional/samples/GSM5652302/counts/GSM5652302_candidate_site_counts.csv,20000,cpg_index,"hg38 chr1 CpG index, one-based inclusive"
+regional/samples/GSM5652302/counts/GSM5652302_candidate_site_counts.csv,20000,methylated_count,observed call count
+regional/samples/GSM5652302/counts/GSM5652302_candidate_site_counts.csv,20000,total_count,observed call count
+regional/samples/GSM5652302/counts/GSM5652302_candidate_site_counts.csv,20000,sample_depth_ge_10,"identifier, flag or count as indicated by field name and README"
+regional/samples/GSM5652302/counts/GSM5652302_candidate_window_counts.csv,5000,gsm,identifier or categorical label
+regional/samples/GSM5652302/counts/GSM5652302_candidate_window_counts.csv,5000,population,identifier or categorical label
+regional/samples/GSM5652302/counts/GSM5652302_candidate_window_counts.csv,5000,donor_id_from_metadata,identifier or categorical label
+regional/samples/GSM5652302/counts/GSM5652302_candidate_window_counts.csv,5000,block_start_index,"hg38 chr1 CpG index, one-based inclusive"
+regional/samples/GSM5652302/counts/GSM5652302_candidate_window_counts.csv,5000,block_end_index,"hg38 chr1 CpG index, one-based inclusive"
+regional/samples/GSM5652302/counts/GSM5652302_candidate_window_counts.csv,5000,complete_depth,complete-fragment count
+regional/samples/GSM5652302/counts/GSM5652302_candidate_window_counts.csv,5000,sample_depth_ge_20,"identifier, flag or count as indicated by field name and README"
+regional/samples/GSM5652302/counts/GSM5652302_candidate_window_counts.csv,5000,count_TTTT,complete-fragment count
+regional/samples/GSM5652302/counts/GSM5652302_candidate_window_counts.csv,5000,count_TTTC,complete-fragment count
+regional/samples/GSM5652302/counts/GSM5652302_candidate_window_counts.csv,5000,count_TTCT,complete-fragment count
+regional/samples/GSM5652302/counts/GSM5652302_candidate_window_counts.csv,5000,count_TTCC,complete-fragment count
+regional/samples/GSM5652302/counts/GSM5652302_candidate_window_counts.csv,5000,count_TCTT,complete-fragment count
+regional/samples/GSM5652302/counts/GSM5652302_candidate_window_counts.csv,5000,count_TCTC,complete-fragment count
+regional/samples/GSM5652302/counts/GSM5652302_candidate_window_counts.csv,5000,count_TCCT,complete-fragment count
+regional/samples/GSM5652302/counts/GSM5652302_candidate_window_counts.csv,5000,count_TCCC,complete-fragment count
+regional/samples/GSM5652302/counts/GSM5652302_candidate_window_counts.csv,5000,count_CTTT,complete-fragment count
+regional/samples/GSM5652302/counts/GSM5652302_candidate_window_counts.csv,5000,count_CTTC,complete-fragment count
+regional/samples/GSM5652302/counts/GSM5652302_candidate_window_counts.csv,5000,count_CTCT,complete-fragment count
+regional/samples/GSM5652302/counts/GSM5652302_candidate_window_counts.csv,5000,count_CTCC,complete-fragment count
+regional/samples/GSM5652302/counts/GSM5652302_candidate_window_counts.csv,5000,count_CCTT,complete-fragment count
+regional/samples/GSM5652302/counts/GSM5652302_candidate_window_counts.csv,5000,count_CCTC,complete-fragment count
+regional/samples/GSM5652302/counts/GSM5652302_candidate_window_counts.csv,5000,count_CCCT,complete-fragment count
+regional/samples/GSM5652302/counts/GSM5652302_candidate_window_counts.csv,5000,count_CCCC,complete-fragment count
+regional/samples/GSM5652303/counts/GSM5652303_candidate_site_counts.csv,20000,gsm,identifier or categorical label
+regional/samples/GSM5652303/counts/GSM5652303_candidate_site_counts.csv,20000,population,identifier or categorical label
+regional/samples/GSM5652303/counts/GSM5652303_candidate_site_counts.csv,20000,donor_id_from_metadata,identifier or categorical label
+regional/samples/GSM5652303/counts/GSM5652303_candidate_site_counts.csv,20000,cpg_index,"hg38 chr1 CpG index, one-based inclusive"
+regional/samples/GSM5652303/counts/GSM5652303_candidate_site_counts.csv,20000,methylated_count,observed call count
+regional/samples/GSM5652303/counts/GSM5652303_candidate_site_counts.csv,20000,total_count,observed call count
+regional/samples/GSM5652303/counts/GSM5652303_candidate_site_counts.csv,20000,sample_depth_ge_10,"identifier, flag or count as indicated by field name and README"
+regional/samples/GSM5652303/counts/GSM5652303_candidate_window_counts.csv,5000,gsm,identifier or categorical label
+regional/samples/GSM5652303/counts/GSM5652303_candidate_window_counts.csv,5000,population,identifier or categorical label
+regional/samples/GSM5652303/counts/GSM5652303_candidate_window_counts.csv,5000,donor_id_from_metadata,identifier or categorical label
+regional/samples/GSM5652303/counts/GSM5652303_candidate_window_counts.csv,5000,block_start_index,"hg38 chr1 CpG index, one-based inclusive"
+regional/samples/GSM5652303/counts/GSM5652303_candidate_window_counts.csv,5000,block_end_index,"hg38 chr1 CpG index, one-based inclusive"
+regional/samples/GSM5652303/counts/GSM5652303_candidate_window_counts.csv,5000,complete_depth,complete-fragment count
+regional/samples/GSM5652303/counts/GSM5652303_candidate_window_counts.csv,5000,sample_depth_ge_20,"identifier, flag or count as indicated by field name and README"
+regional/samples/GSM5652303/counts/GSM5652303_candidate_window_counts.csv,5000,count_TTTT,complete-fragment count
+regional/samples/GSM5652303/counts/GSM5652303_candidate_window_counts.csv,5000,count_TTTC,complete-fragment count
+regional/samples/GSM5652303/counts/GSM5652303_candidate_window_counts.csv,5000,count_TTCT,complete-fragment count
+regional/samples/GSM5652303/counts/GSM5652303_candidate_window_counts.csv,5000,count_TTCC,complete-fragment count
+regional/samples/GSM5652303/counts/GSM5652303_candidate_window_counts.csv,5000,count_TCTT,complete-fragment count
+regional/samples/GSM5652303/counts/GSM5652303_candidate_window_counts.csv,5000,count_TCTC,complete-fragment count
+regional/samples/GSM5652303/counts/GSM5652303_candidate_window_counts.csv,5000,count_TCCT,complete-fragment count
+regional/samples/GSM5652303/counts/GSM5652303_candidate_window_counts.csv,5000,count_TCCC,complete-fragment count
+regional/samples/GSM5652303/counts/GSM5652303_candidate_window_counts.csv,5000,count_CTTT,complete-fragment count
+regional/samples/GSM5652303/counts/GSM5652303_candidate_window_counts.csv,5000,count_CTTC,complete-fragment count
+regional/samples/GSM5652303/counts/GSM5652303_candidate_window_counts.csv,5000,count_CTCT,complete-fragment count
+regional/samples/GSM5652303/counts/GSM5652303_candidate_window_counts.csv,5000,count_CTCC,complete-fragment count
+regional/samples/GSM5652303/counts/GSM5652303_candidate_window_counts.csv,5000,count_CCTT,complete-fragment count
+regional/samples/GSM5652303/counts/GSM5652303_candidate_window_counts.csv,5000,count_CCTC,complete-fragment count
+regional/samples/GSM5652303/counts/GSM5652303_candidate_window_counts.csv,5000,count_CCCT,complete-fragment count
+regional/samples/GSM5652303/counts/GSM5652303_candidate_window_counts.csv,5000,count_CCCC,complete-fragment count
+regional/samples/GSM5652304/counts/GSM5652304_candidate_site_counts.csv,20000,gsm,identifier or categorical label
+regional/samples/GSM5652304/counts/GSM5652304_candidate_site_counts.csv,20000,population,identifier or categorical label
+regional/samples/GSM5652304/counts/GSM5652304_candidate_site_counts.csv,20000,donor_id_from_metadata,identifier or categorical label
+regional/samples/GSM5652304/counts/GSM5652304_candidate_site_counts.csv,20000,cpg_index,"hg38 chr1 CpG index, one-based inclusive"
+regional/samples/GSM5652304/counts/GSM5652304_candidate_site_counts.csv,20000,methylated_count,observed call count
+regional/samples/GSM5652304/counts/GSM5652304_candidate_site_counts.csv,20000,total_count,observed call count
+regional/samples/GSM5652304/counts/GSM5652304_candidate_site_counts.csv,20000,sample_depth_ge_10,"identifier, flag or count as indicated by field name and README"
+regional/samples/GSM5652304/counts/GSM5652304_candidate_window_counts.csv,5000,gsm,identifier or categorical label
+regional/samples/GSM5652304/counts/GSM5652304_candidate_window_counts.csv,5000,population,identifier or categorical label
+regional/samples/GSM5652304/counts/GSM5652304_candidate_window_counts.csv,5000,donor_id_from_metadata,identifier or categorical label
+regional/samples/GSM5652304/counts/GSM5652304_candidate_window_counts.csv,5000,block_start_index,"hg38 chr1 CpG index, one-based inclusive"
+regional/samples/GSM5652304/counts/GSM5652304_candidate_window_counts.csv,5000,block_end_index,"hg38 chr1 CpG index, one-based inclusive"
+regional/samples/GSM5652304/counts/GSM5652304_candidate_window_counts.csv,5000,complete_depth,complete-fragment count
+regional/samples/GSM5652304/counts/GSM5652304_candidate_window_counts.csv,5000,sample_depth_ge_20,"identifier, flag or count as indicated by field name and README"
+regional/samples/GSM5652304/counts/GSM5652304_candidate_window_counts.csv,5000,count_TTTT,complete-fragment count
+regional/samples/GSM5652304/counts/GSM5652304_candidate_window_counts.csv,5000,count_TTTC,complete-fragment count
+regional/samples/GSM5652304/counts/GSM5652304_candidate_window_counts.csv,5000,count_TTCT,complete-fragment count
+regional/samples/GSM5652304/counts/GSM5652304_candidate_window_counts.csv,5000,count_TTCC,complete-fragment count
+regional/samples/GSM5652304/counts/GSM5652304_candidate_window_counts.csv,5000,count_TCTT,complete-fragment count
+regional/samples/GSM5652304/counts/GSM5652304_candidate_window_counts.csv,5000,count_TCTC,complete-fragment count
+regional/samples/GSM5652304/counts/GSM5652304_candidate_window_counts.csv,5000,count_TCCT,complete-fragment count
+regional/samples/GSM5652304/counts/GSM5652304_candidate_window_counts.csv,5000,count_TCCC,complete-fragment count
+regional/samples/GSM5652304/counts/GSM5652304_candidate_window_counts.csv,5000,count_CTTT,complete-fragment count
+regional/samples/GSM5652304/counts/GSM5652304_candidate_window_counts.csv,5000,count_CTTC,complete-fragment count
+regional/samples/GSM5652304/counts/GSM5652304_candidate_window_counts.csv,5000,count_CTCT,complete-fragment count
+regional/samples/GSM5652304/counts/GSM5652304_candidate_window_counts.csv,5000,count_CTCC,complete-fragment count
+regional/samples/GSM5652304/counts/GSM5652304_candidate_window_counts.csv,5000,count_CCTT,complete-fragment count
+regional/samples/GSM5652304/counts/GSM5652304_candidate_window_counts.csv,5000,count_CCTC,complete-fragment count
+regional/samples/GSM5652304/counts/GSM5652304_candidate_window_counts.csv,5000,count_CCCT,complete-fragment count
+regional/samples/GSM5652304/counts/GSM5652304_candidate_window_counts.csv,5000,count_CCCC,complete-fragment count
+regional/samples/GSM5652316/counts/GSM5652316_candidate_site_counts.csv,20000,gsm,identifier or categorical label
+regional/samples/GSM5652316/counts/GSM5652316_candidate_site_counts.csv,20000,population,identifier or categorical label
+regional/samples/GSM5652316/counts/GSM5652316_candidate_site_counts.csv,20000,donor_id_from_metadata,identifier or categorical label
+regional/samples/GSM5652316/counts/GSM5652316_candidate_site_counts.csv,20000,cpg_index,"hg38 chr1 CpG index, one-based inclusive"
+regional/samples/GSM5652316/counts/GSM5652316_candidate_site_counts.csv,20000,methylated_count,observed call count
+regional/samples/GSM5652316/counts/GSM5652316_candidate_site_counts.csv,20000,total_count,observed call count
+regional/samples/GSM5652316/counts/GSM5652316_candidate_site_counts.csv,20000,sample_depth_ge_10,"identifier, flag or count as indicated by field name and README"
+regional/samples/GSM5652316/counts/GSM5652316_candidate_window_counts.csv,5000,gsm,identifier or categorical label
+regional/samples/GSM5652316/counts/GSM5652316_candidate_window_counts.csv,5000,population,identifier or categorical label
+regional/samples/GSM5652316/counts/GSM5652316_candidate_window_counts.csv,5000,donor_id_from_metadata,identifier or categorical label
+regional/samples/GSM5652316/counts/GSM5652316_candidate_window_counts.csv,5000,block_start_index,"hg38 chr1 CpG index, one-based inclusive"
+regional/samples/GSM5652316/counts/GSM5652316_candidate_window_counts.csv,5000,block_end_index,"hg38 chr1 CpG index, one-based inclusive"
+regional/samples/GSM5652316/counts/GSM5652316_candidate_window_counts.csv,5000,complete_depth,complete-fragment count
+regional/samples/GSM5652316/counts/GSM5652316_candidate_window_counts.csv,5000,sample_depth_ge_20,"identifier, flag or count as indicated by field name and README"
+regional/samples/GSM5652316/counts/GSM5652316_candidate_window_counts.csv,5000,count_TTTT,complete-fragment count
+regional/samples/GSM5652316/counts/GSM5652316_candidate_window_counts.csv,5000,count_TTTC,complete-fragment count
+regional/samples/GSM5652316/counts/GSM5652316_candidate_window_counts.csv,5000,count_TTCT,complete-fragment count
+regional/samples/GSM5652316/counts/GSM5652316_candidate_window_counts.csv,5000,count_TTCC,complete-fragment count
+regional/samples/GSM5652316/counts/GSM5652316_candidate_window_counts.csv,5000,count_TCTT,complete-fragment count
+regional/samples/GSM5652316/counts/GSM5652316_candidate_window_counts.csv,5000,count_TCTC,complete-fragment count
+regional/samples/GSM5652316/counts/GSM5652316_candidate_window_counts.csv,5000,count_TCCT,complete-fragment count
+regional/samples/GSM5652316/counts/GSM5652316_candidate_window_counts.csv,5000,count_TCCC,complete-fragment count
+regional/samples/GSM5652316/counts/GSM5652316_candidate_window_counts.csv,5000,count_CTTT,complete-fragment count
+regional/samples/GSM5652316/counts/GSM5652316_candidate_window_counts.csv,5000,count_CTTC,complete-fragment count
+regional/samples/GSM5652316/counts/GSM5652316_candidate_window_counts.csv,5000,count_CTCT,complete-fragment count
+regional/samples/GSM5652316/counts/GSM5652316_candidate_window_counts.csv,5000,count_CTCC,complete-fragment count
+regional/samples/GSM5652316/counts/GSM5652316_candidate_window_counts.csv,5000,count_CCTT,complete-fragment count
+regional/samples/GSM5652316/counts/GSM5652316_candidate_window_counts.csv,5000,count_CCTC,complete-fragment count
+regional/samples/GSM5652316/counts/GSM5652316_candidate_window_counts.csv,5000,count_CCCT,complete-fragment count
+regional/samples/GSM5652316/counts/GSM5652316_candidate_window_counts.csv,5000,count_CCCC,complete-fragment count
+regional/samples/GSM5652317/counts/GSM5652317_candidate_site_counts.csv,20000,gsm,identifier or categorical label
+regional/samples/GSM5652317/counts/GSM5652317_candidate_site_counts.csv,20000,population,identifier or categorical label
+regional/samples/GSM5652317/counts/GSM5652317_candidate_site_counts.csv,20000,donor_id_from_metadata,identifier or categorical label
+regional/samples/GSM5652317/counts/GSM5652317_candidate_site_counts.csv,20000,cpg_index,"hg38 chr1 CpG index, one-based inclusive"
+regional/samples/GSM5652317/counts/GSM5652317_candidate_site_counts.csv,20000,methylated_count,observed call count
+regional/samples/GSM5652317/counts/GSM5652317_candidate_site_counts.csv,20000,total_count,observed call count
+regional/samples/GSM5652317/counts/GSM5652317_candidate_site_counts.csv,20000,sample_depth_ge_10,"identifier, flag or count as indicated by field name and README"
+regional/samples/GSM5652317/counts/GSM5652317_candidate_window_counts.csv,5000,gsm,identifier or categorical label
+regional/samples/GSM5652317/counts/GSM5652317_candidate_window_counts.csv,5000,population,identifier or categorical label
+regional/samples/GSM5652317/counts/GSM5652317_candidate_window_counts.csv,5000,donor_id_from_metadata,identifier or categorical label
+regional/samples/GSM5652317/counts/GSM5652317_candidate_window_counts.csv,5000,block_start_index,"hg38 chr1 CpG index, one-based inclusive"
+regional/samples/GSM5652317/counts/GSM5652317_candidate_window_counts.csv,5000,block_end_index,"hg38 chr1 CpG index, one-based inclusive"
+regional/samples/GSM5652317/counts/GSM5652317_candidate_window_counts.csv,5000,complete_depth,complete-fragment count
+regional/samples/GSM5652317/counts/GSM5652317_candidate_window_counts.csv,5000,sample_depth_ge_20,"identifier, flag or count as indicated by field name and README"
+regional/samples/GSM5652317/counts/GSM5652317_candidate_window_counts.csv,5000,count_TTTT,complete-fragment count
+regional/samples/GSM5652317/counts/GSM5652317_candidate_window_counts.csv,5000,count_TTTC,complete-fragment count
+regional/samples/GSM5652317/counts/GSM5652317_candidate_window_counts.csv,5000,count_TTCT,complete-fragment count
+regional/samples/GSM5652317/counts/GSM5652317_candidate_window_counts.csv,5000,count_TTCC,complete-fragment count
+regional/samples/GSM5652317/counts/GSM5652317_candidate_window_counts.csv,5000,count_TCTT,complete-fragment count
+regional/samples/GSM5652317/counts/GSM5652317_candidate_window_counts.csv,5000,count_TCTC,complete-fragment count
+regional/samples/GSM5652317/counts/GSM5652317_candidate_window_counts.csv,5000,count_TCCT,complete-fragment count
+regional/samples/GSM5652317/counts/GSM5652317_candidate_window_counts.csv,5000,count_TCCC,complete-fragment count
+regional/samples/GSM5652317/counts/GSM5652317_candidate_window_counts.csv,5000,count_CTTT,complete-fragment count
+regional/samples/GSM5652317/counts/GSM5652317_candidate_window_counts.csv,5000,count_CTTC,complete-fragment count
+regional/samples/GSM5652317/counts/GSM5652317_candidate_window_counts.csv,5000,count_CTCT,complete-fragment count
+regional/samples/GSM5652317/counts/GSM5652317_candidate_window_counts.csv,5000,count_CTCC,complete-fragment count
+regional/samples/GSM5652317/counts/GSM5652317_candidate_window_counts.csv,5000,count_CCTT,complete-fragment count
+regional/samples/GSM5652317/counts/GSM5652317_candidate_window_counts.csv,5000,count_CCTC,complete-fragment count
+regional/samples/GSM5652317/counts/GSM5652317_candidate_window_counts.csv,5000,count_CCCT,complete-fragment count
+regional/samples/GSM5652317/counts/GSM5652317_candidate_window_counts.csv,5000,count_CCCC,complete-fragment count
+regional/samples/GSM5652318/counts/GSM5652318_candidate_site_counts.csv,20000,gsm,identifier or categorical label
+regional/samples/GSM5652318/counts/GSM5652318_candidate_site_counts.csv,20000,population,identifier or categorical label
+regional/samples/GSM5652318/counts/GSM5652318_candidate_site_counts.csv,20000,donor_id_from_metadata,identifier or categorical label
+regional/samples/GSM5652318/counts/GSM5652318_candidate_site_counts.csv,20000,cpg_index,"hg38 chr1 CpG index, one-based inclusive"
+regional/samples/GSM5652318/counts/GSM5652318_candidate_site_counts.csv,20000,methylated_count,observed call count
+regional/samples/GSM5652318/counts/GSM5652318_candidate_site_counts.csv,20000,total_count,observed call count
+regional/samples/GSM5652318/counts/GSM5652318_candidate_site_counts.csv,20000,sample_depth_ge_10,"identifier, flag or count as indicated by field name and README"
+regional/samples/GSM5652318/counts/GSM5652318_candidate_window_counts.csv,5000,gsm,identifier or categorical label
+regional/samples/GSM5652318/counts/GSM5652318_candidate_window_counts.csv,5000,population,identifier or categorical label
+regional/samples/GSM5652318/counts/GSM5652318_candidate_window_counts.csv,5000,donor_id_from_metadata,identifier or categorical label
+regional/samples/GSM5652318/counts/GSM5652318_candidate_window_counts.csv,5000,block_start_index,"hg38 chr1 CpG index, one-based inclusive"
+regional/samples/GSM5652318/counts/GSM5652318_candidate_window_counts.csv,5000,block_end_index,"hg38 chr1 CpG index, one-based inclusive"
+regional/samples/GSM5652318/counts/GSM5652318_candidate_window_counts.csv,5000,complete_depth,complete-fragment count
+regional/samples/GSM5652318/counts/GSM5652318_candidate_window_counts.csv,5000,sample_depth_ge_20,"identifier, flag or count as indicated by field name and README"
+regional/samples/GSM5652318/counts/GSM5652318_candidate_window_counts.csv,5000,count_TTTT,complete-fragment count
+regional/samples/GSM5652318/counts/GSM5652318_candidate_window_counts.csv,5000,count_TTTC,complete-fragment count
+regional/samples/GSM5652318/counts/GSM5652318_candidate_window_counts.csv,5000,count_TTCT,complete-fragment count
+regional/samples/GSM5652318/counts/GSM5652318_candidate_window_counts.csv,5000,count_TTCC,complete-fragment count
+regional/samples/GSM5652318/counts/GSM5652318_candidate_window_counts.csv,5000,count_TCTT,complete-fragment count
+regional/samples/GSM5652318/counts/GSM5652318_candidate_window_counts.csv,5000,count_TCTC,complete-fragment count
+regional/samples/GSM5652318/counts/GSM5652318_candidate_window_counts.csv,5000,count_TCCT,complete-fragment count
+regional/samples/GSM5652318/counts/GSM5652318_candidate_window_counts.csv,5000,count_TCCC,complete-fragment count
+regional/samples/GSM5652318/counts/GSM5652318_candidate_window_counts.csv,5000,count_CTTT,complete-fragment count
+regional/samples/GSM5652318/counts/GSM5652318_candidate_window_counts.csv,5000,count_CTTC,complete-fragment count
+regional/samples/GSM5652318/counts/GSM5652318_candidate_window_counts.csv,5000,count_CTCT,complete-fragment count
+regional/samples/GSM5652318/counts/GSM5652318_candidate_window_counts.csv,5000,count_CTCC,complete-fragment count
+regional/samples/GSM5652318/counts/GSM5652318_candidate_window_counts.csv,5000,count_CCTT,complete-fragment count
+regional/samples/GSM5652318/counts/GSM5652318_candidate_window_counts.csv,5000,count_CCTC,complete-fragment count
+regional/samples/GSM5652318/counts/GSM5652318_candidate_window_counts.csv,5000,count_CCCT,complete-fragment count
+regional/samples/GSM5652318/counts/GSM5652318_candidate_window_counts.csv,5000,count_CCCC,complete-fragment count
+data/arrays/discovery_R7_values.csv.gz,481737,probe_id,identifier or categorical label; see data/model_fits and protocol documentation
+data/arrays/donor_entropy_sample_identities.csv,42,gsm,identifier or categorical label; see data/model_fits and protocol documentation
+data/arrays/donor_entropy_sample_identities.csv,42,sample_name,identifier or categorical label; see data/model_fits and protocol documentation
+data/arrays/donor_entropy_sample_identities.csv,42,population,identifier or categorical label; see data/model_fits and protocol documentation
+data/arrays/donor_entropy_sample_identities.csv,42,donor_id,"count, index, flag or numerical diagnostic as defined in the field name and protocol documentation"
+data/arrays/donor_entropy_sample_identities.csv,42,cache_column_index_zero,"count, index, flag or numerical diagnostic as defined in the field name and protocol documentation"
+data/arrays/donor_entropy_sample_identities.csv,42,n_cpg,"count, index, flag or numerical diagnostic as defined in the field name and protocol documentation"
+data/arrays/donor_entropy_sample_identities.csv,42,mean_h_beta,"count, index, flag or numerical diagnostic as defined in the field name and protocol documentation"
+data/arrays/donor_entropy_sample_identities.csv,42,sum_h_beta_bits,bits under the operational definitions in README and Methods
+data/metadata/discovery_samples.csv,42,gsm,identifier or categorical label; see data/model_fits and protocol documentation
+data/metadata/discovery_samples.csv,42,sample_name,identifier or categorical label; see data/model_fits and protocol documentation
+data/metadata/discovery_samples.csv,42,population,identifier or categorical label; see data/model_fits and protocol documentation
+data/metadata/discovery_samples.csv,42,donor_id,"count, index, flag or numerical diagnostic as defined in the field name and protocol documentation"
+data/metadata/discovery_samples.csv,42,source_sample_index_zero,"count, index, flag or numerical diagnostic as defined in the field name and protocol documentation"
+data/metadata/discovery_samples.csv,42,array_id,"count, index, flag or numerical diagnostic as defined in the field name and protocol documentation"
+data/model_fits/classification_confusion_counts.csv,1089,protocol,"count, index, flag or numerical diagnostic as defined in the field name and protocol documentation"
+data/model_fits/classification_confusion_counts.csv,1089,n_cpg,"count, index, flag or numerical diagnostic as defined in the field name and protocol documentation"
+data/model_fits/classification_confusion_counts.csv,1089,method,"count, index, flag or numerical diagnostic as defined in the field name and protocol documentation"
+data/model_fits/classification_confusion_counts.csv,1089,true,"count, index, flag or numerical diagnostic as defined in the field name and protocol documentation"
+data/model_fits/classification_confusion_counts.csv,1089,predicted,"count, index, flag or numerical diagnostic as defined in the field name and protocol documentation"
+data/model_fits/classification_confusion_counts.csv,1089,count,"count, index, flag or numerical diagnostic as defined in the field name and protocol documentation"
+data/model_fits/classification_metrics.csv,27,protocol,"count, index, flag or numerical diagnostic as defined in the field name and protocol documentation"
+data/model_fits/classification_metrics.csv,27,n_cpg,"count, index, flag or numerical diagnostic as defined in the field name and protocol documentation"
+data/model_fits/classification_metrics.csv,27,method,"count, index, flag or numerical diagnostic as defined in the field name and protocol documentation"
+data/model_fits/classification_metrics.csv,27,n_samples,"count, index, flag or numerical diagnostic as defined in the field name and protocol documentation"
+data/model_fits/classification_metrics.csv,27,n_cell_types,"count, index, flag or numerical diagnostic as defined in the field name and protocol documentation"
+data/model_fits/classification_metrics.csv,27,correct,"count, index, flag or numerical diagnostic as defined in the field name and protocol documentation"
+data/model_fits/classification_metrics.csv,27,accuracy,percent if column name ends in pct or percent; otherwise fraction of samples or mean class recall
+data/model_fits/classification_metrics.csv,27,balanced_accuracy,percent if column name ends in pct or percent; otherwise fraction of samples or mean class recall
+data/model_fits/classification_metrics.csv,27,empirical_mutual_information_bits,bits under the operational definitions in README and Methods
+data/model_fits/classification_metrics.csv,27,true_label_entropy_bits,bits under the operational definitions in README and Methods
+data/model_fits/classification_metrics_by_class.csv,171,protocol,"count, index, flag or numerical diagnostic as defined in the field name and protocol documentation"
+data/model_fits/classification_metrics_by_class.csv,171,n_cpg,"count, index, flag or numerical diagnostic as defined in the field name and protocol documentation"
+data/model_fits/classification_metrics_by_class.csv,171,method,"count, index, flag or numerical diagnostic as defined in the field name and protocol documentation"
+data/model_fits/classification_metrics_by_class.csv,171,cell_type,"count, index, flag or numerical diagnostic as defined in the field name and protocol documentation"
+data/model_fits/classification_metrics_by_class.csv,171,true_count,"count, index, flag or numerical diagnostic as defined in the field name and protocol documentation"
+data/model_fits/classification_metrics_by_class.csv,171,predicted_count,"count, index, flag or numerical diagnostic as defined in the field name and protocol documentation"
+data/model_fits/classification_metrics_by_class.csv,171,correct,"count, index, flag or numerical diagnostic as defined in the field name and protocol documentation"
+data/model_fits/classification_metrics_by_class.csv,171,recall,"count, index, flag or numerical diagnostic as defined in the field name and protocol documentation"
+data/model_fits/classification_metrics_by_class.csv,171,precision,"count, index, flag or numerical diagnostic as defined in the field name and protocol documentation"
+data/model_fits/classifier_distances.csv.gz,18000,phase,identifier or categorical label; see data/model_fits and protocol documentation
+data/model_fits/classifier_distances.csv.gz,18000,outer_fold_index,"count, index, flag or numerical diagnostic as defined in the field name and protocol documentation"
+data/model_fits/classifier_distances.csv.gz,18000,outer_test_donor_id,"count, index, flag or numerical diagnostic as defined in the field name and protocol documentation"
+data/model_fits/classifier_distances.csv.gz,18000,inner_validation_donor_id,"count, index, flag or numerical diagnostic as defined in the field name and protocol documentation"
+data/model_fits/classifier_distances.csv.gz,18000,model_id,identifier or categorical label; see data/model_fits and protocol documentation
+data/model_fits/classifier_distances.csv.gz,18000,n_cpg,"count, index, flag or numerical diagnostic as defined in the field name and protocol documentation"
+data/model_fits/classifier_distances.csv.gz,18000,method,"count, index, flag or numerical diagnostic as defined in the field name and protocol documentation"
+data/model_fits/classifier_distances.csv.gz,18000,gsm,identifier or categorical label; see data/model_fits and protocol documentation
+data/model_fits/classifier_distances.csv.gz,18000,centroid_class,"count, index, flag or numerical diagnostic as defined in the field name and protocol documentation"
+data/model_fits/classifier_distances.csv.gz,18000,distance,"count, index, flag or numerical diagnostic as defined in the field name and protocol documentation"
+data/model_fits/classifier_distances.csv.gz,18000,distance_definition,"count, index, flag or numerical diagnostic as defined in the field name and protocol documentation"
+data/model_fits/discovery_fixed_size_curve.csv,8,n_cpg,"count, index, flag or numerical diagnostic as defined in the field name and protocol documentation"
+data/model_fits/discovery_fixed_size_curve.csv,8,method,"count, index, flag or numerical diagnostic as defined in the field name and protocol documentation"
+data/model_fits/discovery_fixed_size_curve.csv,8,n_samples,"count, index, flag or numerical diagnostic as defined in the field name and protocol documentation"
+data/model_fits/discovery_fixed_size_curve.csv,8,n_cell_types,"count, index, flag or numerical diagnostic as defined in the field name and protocol documentation"
+data/model_fits/discovery_fixed_size_curve.csv,8,correct,"count, index, flag or numerical diagnostic as defined in the field name and protocol documentation"
+data/model_fits/discovery_fixed_size_curve.csv,8,accuracy,percent if column name ends in pct or percent; otherwise fraction of samples or mean class recall
+data/model_fits/discovery_fixed_size_curve.csv,8,balanced_accuracy,percent if column name ends in pct or percent; otherwise fraction of samples or mean class recall
+data/model_fits/discovery_fixed_size_curve.csv,8,empirical_mutual_information_bits,bits under the operational definitions in README and Methods
+data/model_fits/discovery_fixed_size_curve.csv,8,true_label_entropy_bits,bits under the operational definitions in README and Methods
+data/model_fits/discovery_fixed_size_predictions.csv.gz,336,prediction_index,"count, index, flag or numerical diagnostic as defined in the field name and protocol documentation"
+data/model_fits/discovery_fixed_size_predictions.csv.gz,336,phase,identifier or categorical label; see data/model_fits and protocol documentation
+data/model_fits/discovery_fixed_size_predictions.csv.gz,336,outer_fold_index,"count, index, flag or numerical diagnostic as defined in the field name and protocol documentation"
+data/model_fits/discovery_fixed_size_predictions.csv.gz,336,outer_test_donor_id,"count, index, flag or numerical diagnostic as defined in the field name and protocol documentation"
+data/model_fits/discovery_fixed_size_predictions.csv.gz,336,inner_validation_donor_id,"count, index, flag or numerical diagnostic as defined in the field name and protocol documentation"
+data/model_fits/discovery_fixed_size_predictions.csv.gz,336,model_id,identifier or categorical label; see data/model_fits and protocol documentation
+data/model_fits/discovery_fixed_size_predictions.csv.gz,336,n_cpg,"count, index, flag or numerical diagnostic as defined in the field name and protocol documentation"
+data/model_fits/discovery_fixed_size_predictions.csv.gz,336,method,"count, index, flag or numerical diagnostic as defined in the field name and protocol documentation"
+data/model_fits/discovery_fixed_size_predictions.csv.gz,336,gsm,identifier or categorical label; see data/model_fits and protocol documentation
+data/model_fits/discovery_fixed_size_predictions.csv.gz,336,sample_name,identifier or categorical label; see data/model_fits and protocol documentation
+data/model_fits/discovery_fixed_size_predictions.csv.gz,336,donor,"count, index, flag or numerical diagnostic as defined in the field name and protocol documentation"
+data/model_fits/discovery_fixed_size_predictions.csv.gz,336,true,"count, index, flag or numerical diagnostic as defined in the field name and protocol documentation"
+data/model_fits/discovery_fixed_size_predictions.csv.gz,336,predicted,"count, index, flag or numerical diagnostic as defined in the field name and protocol documentation"
+data/model_fits/discovery_fixed_size_predictions.csv.gz,336,correct,"count, index, flag or numerical diagnostic as defined in the field name and protocol documentation"
+data/model_fits/discovery_fixed_size_predictions.csv.gz,336,minimum_distance,"count, index, flag or numerical diagnostic as defined in the field name and protocol documentation"
+data/model_fits/discovery_fixed_size_predictions.csv.gz,336,distance_margin,"count, index, flag or numerical diagnostic as defined in the field name and protocol documentation"
+data/model_fits/external_100_signature_and_centroids.csv,100,probe_id,identifier or categorical label; see data/model_fits and protocol documentation
+data/model_fits/external_100_signature_and_centroids.csv,100,R_discovery,"count, index, flag or numerical diagnostic as defined in the field name and protocol documentation"
+data/model_fits/external_100_signature_and_centroids.csv,100,centroid_CD4,"count, index, flag or numerical diagnostic as defined in the field name and protocol documentation"
+data/model_fits/external_100_signature_and_centroids.csv,100,centroid_CD8,"count, index, flag or numerical diagnostic as defined in the field name and protocol documentation"
+data/model_fits/external_100_signature_and_centroids.csv,100,centroid_Mono,"count, index, flag or numerical diagnostic as defined in the field name and protocol documentation"
+data/model_fits/external_100_signature_and_centroids.csv,100,centroid_B,"count, index, flag or numerical diagnostic as defined in the field name and protocol documentation"
+data/model_fits/external_100_signature_and_centroids.csv,100,centroid_NK,"count, index, flag or numerical diagnostic as defined in the field name and protocol documentation"
+data/model_fits/external_100_signature_and_centroids.csv,100,centroid_Neu,"count, index, flag or numerical diagnostic as defined in the field name and protocol documentation"
+data/model_fits/external_confusion_matrices_long.csv,648,n_cpg,"count, index, flag or numerical diagnostic as defined in the field name and protocol documentation"
+data/model_fits/external_confusion_matrices_long.csv,648,method,"count, index, flag or numerical diagnostic as defined in the field name and protocol documentation"
+data/model_fits/external_confusion_matrices_long.csv,648,true,"count, index, flag or numerical diagnostic as defined in the field name and protocol documentation"
+data/model_fits/external_confusion_matrices_long.csv,648,predicted,"count, index, flag or numerical diagnostic as defined in the field name and protocol documentation"
+data/model_fits/external_confusion_matrices_long.csv,648,count,"count, index, flag or numerical diagnostic as defined in the field name and protocol documentation"
+data/model_fits/external_discovery_ranking.csv.gz,448510,probe_id,identifier or categorical label; see data/model_fits and protocol documentation
+data/model_fits/external_discovery_ranking.csv.gz,448510,R_discovery,"count, index, flag or numerical diagnostic as defined in the field name and protocol documentation"
+data/model_fits/external_discovery_ranking.csv.gz,448510,discovery_rank,"count, index, flag or numerical diagnostic as defined in the field name and protocol documentation"
+data/model_fits/external_individual_predictions.csv.gz,648,phase,identifier or categorical label; see data/model_fits and protocol documentation
+data/model_fits/external_individual_predictions.csv.gz,648,outer_fold_index,"count, index, flag or numerical diagnostic as defined in the field name and protocol documentation"
+data/model_fits/external_individual_predictions.csv.gz,648,outer_test_donor_id,"count, index, flag or numerical diagnostic as defined in the field name and protocol documentation"
+data/model_fits/external_individual_predictions.csv.gz,648,inner_validation_donor_id,"count, index, flag or numerical diagnostic as defined in the field name and protocol documentation"
+data/model_fits/external_individual_predictions.csv.gz,648,model_id,identifier or categorical label; see data/model_fits and protocol documentation
+data/model_fits/external_individual_predictions.csv.gz,648,n_cpg,"count, index, flag or numerical diagnostic as defined in the field name and protocol documentation"
+data/model_fits/external_individual_predictions.csv.gz,648,method,"count, index, flag or numerical diagnostic as defined in the field name and protocol documentation"
+data/model_fits/external_individual_predictions.csv.gz,648,gsm,identifier or categorical label; see data/model_fits and protocol documentation
+data/model_fits/external_individual_predictions.csv.gz,648,sample_name,identifier or categorical label; see data/model_fits and protocol documentation
+data/model_fits/external_individual_predictions.csv.gz,648,donor,"count, index, flag or numerical diagnostic as defined in the field name and protocol documentation"
+data/model_fits/external_individual_predictions.csv.gz,648,true,"count, index, flag or numerical diagnostic as defined in the field name and protocol documentation"
+data/model_fits/external_individual_predictions.csv.gz,648,predicted,"count, index, flag or numerical diagnostic as defined in the field name and protocol documentation"
+data/model_fits/external_individual_predictions.csv.gz,648,correct,"count, index, flag or numerical diagnostic as defined in the field name and protocol documentation"
+data/model_fits/external_individual_predictions.csv.gz,648,minimum_distance,"count, index, flag or numerical diagnostic as defined in the field name and protocol documentation"
+data/model_fits/external_individual_predictions.csv.gz,648,distance_margin,"count, index, flag or numerical diagnostic as defined in the field name and protocol documentation"
+data/model_fits/external_size_curve.csv,18,n_cpg,"count, index, flag or numerical diagnostic as defined in the field name and protocol documentation"
+data/model_fits/external_size_curve.csv,18,method,"count, index, flag or numerical diagnostic as defined in the field name and protocol documentation"
+data/model_fits/external_size_curve.csv,18,n_samples,"count, index, flag or numerical diagnostic as defined in the field name and protocol documentation"
+data/model_fits/external_size_curve.csv,18,n_cell_types,"count, index, flag or numerical diagnostic as defined in the field name and protocol documentation"
+data/model_fits/external_size_curve.csv,18,correct,"count, index, flag or numerical diagnostic as defined in the field name and protocol documentation"
+data/model_fits/external_size_curve.csv,18,accuracy,percent if column name ends in pct or percent; otherwise fraction of samples or mean class recall
+data/model_fits/external_size_curve.csv,18,balanced_accuracy,percent if column name ends in pct or percent; otherwise fraction of samples or mean class recall
+data/model_fits/external_size_curve.csv,18,empirical_mutual_information_bits,bits under the operational definitions in README and Methods
+data/model_fits/external_size_curve.csv,18,true_label_entropy_bits,bits under the operational definitions in README and Methods
+data/model_fits/model_sample_membership.csv,1590,model_id,identifier or categorical label; see data/model_fits and protocol documentation
+data/model_fits/model_sample_membership.csv,1590,cohort,"count, index, flag or numerical diagnostic as defined in the field name and protocol documentation"
+data/model_fits/model_sample_membership.csv,1590,gsm,identifier or categorical label; see data/model_fits and protocol documentation
+data/model_fits/model_sample_membership.csv,1590,sample_name,identifier or categorical label; see data/model_fits and protocol documentation
+data/model_fits/model_sample_membership.csv,1590,population,identifier or categorical label; see data/model_fits and protocol documentation
+data/model_fits/model_sample_membership.csv,1590,donor_id,"count, index, flag or numerical diagnostic as defined in the field name and protocol documentation"
+data/model_fits/model_sample_membership.csv,1590,role,"count, index, flag or numerical diagnostic as defined in the field name and protocol documentation"
+data/model_fits/nested_confusion_matrix.csv,7,true,"count, index, flag or numerical diagnostic as defined in the field name and protocol documentation"
+data/model_fits/nested_confusion_matrix.csv,7,CD4,"count, index, flag or numerical diagnostic as defined in the field name and protocol documentation"
+data/model_fits/nested_confusion_matrix.csv,7,CD8,"count, index, flag or numerical diagnostic as defined in the field name and protocol documentation"
+data/model_fits/nested_confusion_matrix.csv,7,Mono,"count, index, flag or numerical diagnostic as defined in the field name and protocol documentation"
+data/model_fits/nested_confusion_matrix.csv,7,B,"count, index, flag or numerical diagnostic as defined in the field name and protocol documentation"
+data/model_fits/nested_confusion_matrix.csv,7,NK,"count, index, flag or numerical diagnostic as defined in the field name and protocol documentation"
+data/model_fits/nested_confusion_matrix.csv,7,Neu,"count, index, flag or numerical diagnostic as defined in the field name and protocol documentation"
+data/model_fits/nested_confusion_matrix.csv,7,Eos,"count, index, flag or numerical diagnostic as defined in the field name and protocol documentation"
+data/model_fits/nested_inner_predictions.csv.gz,1680,phase,identifier or categorical label; see data/model_fits and protocol documentation
+data/model_fits/nested_inner_predictions.csv.gz,1680,outer_fold_index,"count, index, flag or numerical diagnostic as defined in the field name and protocol documentation"
+data/model_fits/nested_inner_predictions.csv.gz,1680,outer_test_donor_id,"count, index, flag or numerical diagnostic as defined in the field name and protocol documentation"
+data/model_fits/nested_inner_predictions.csv.gz,1680,inner_validation_donor_id,"count, index, flag or numerical diagnostic as defined in the field name and protocol documentation"
+data/model_fits/nested_inner_predictions.csv.gz,1680,model_id,identifier or categorical label; see data/model_fits and protocol documentation
+data/model_fits/nested_inner_predictions.csv.gz,1680,n_cpg,"count, index, flag or numerical diagnostic as defined in the field name and protocol documentation"
+data/model_fits/nested_inner_predictions.csv.gz,1680,method,"count, index, flag or numerical diagnostic as defined in the field name and protocol documentation"
+data/model_fits/nested_inner_predictions.csv.gz,1680,gsm,identifier or categorical label; see data/model_fits and protocol documentation
+data/model_fits/nested_inner_predictions.csv.gz,1680,sample_name,identifier or categorical label; see data/model_fits and protocol documentation
+data/model_fits/nested_inner_predictions.csv.gz,1680,donor,"count, index, flag or numerical diagnostic as defined in the field name and protocol documentation"
+data/model_fits/nested_inner_predictions.csv.gz,1680,true,"count, index, flag or numerical diagnostic as defined in the field name and protocol documentation"
+data/model_fits/nested_inner_predictions.csv.gz,1680,predicted,"count, index, flag or numerical diagnostic as defined in the field name and protocol documentation"
+data/model_fits/nested_inner_predictions.csv.gz,1680,correct,"count, index, flag or numerical diagnostic as defined in the field name and protocol documentation"
+data/model_fits/nested_inner_predictions.csv.gz,1680,minimum_distance,"count, index, flag or numerical diagnostic as defined in the field name and protocol documentation"
+data/model_fits/nested_inner_predictions.csv.gz,1680,distance_margin,"count, index, flag or numerical diagnostic as defined in the field name and protocol documentation"
+data/model_fits/nested_inner_size_selection.csv,48,outer_fold,"count, index, flag or numerical diagnostic as defined in the field name and protocol documentation"
+data/model_fits/nested_inner_size_selection.csv,48,outer_test_donor_id,"count, index, flag or numerical diagnostic as defined in the field name and protocol documentation"
+data/model_fits/nested_inner_size_selection.csv,48,candidate_cpgs,"count, index, flag or numerical diagnostic as defined in the field name and protocol documentation"
+data/model_fits/nested_inner_size_selection.csv,48,correct_inner_predictions,"count, index, flag or numerical diagnostic as defined in the field name and protocol documentation"
+data/model_fits/nested_inner_size_selection.csv,48,n_inner_predictions,"count, index, flag or numerical diagnostic as defined in the field name and protocol documentation"
+data/model_fits/nested_inner_size_selection.csv,48,pooled_inner_balanced_accuracy,percent if column name ends in pct or percent; otherwise fraction of samples or mean class recall
+data/model_fits/nested_inner_size_selection.csv,48,selected,"count, index, flag or numerical diagnostic as defined in the field name and protocol documentation"
+data/model_fits/nested_outer_predictions.csv,42,outer_prediction_index,"count, index, flag or numerical diagnostic as defined in the field name and protocol documentation"
+data/model_fits/nested_outer_predictions.csv,42,phase,identifier or categorical label; see data/model_fits and protocol documentation
+data/model_fits/nested_outer_predictions.csv,42,outer_fold_index,"count, index, flag or numerical diagnostic as defined in the field name and protocol documentation"
+data/model_fits/nested_outer_predictions.csv,42,outer_test_donor_id,"count, index, flag or numerical diagnostic as defined in the field name and protocol documentation"
+data/model_fits/nested_outer_predictions.csv,42,inner_validation_donor_id,"count, index, flag or numerical diagnostic as defined in the field name and protocol documentation"
+data/model_fits/nested_outer_predictions.csv,42,model_id,identifier or categorical label; see data/model_fits and protocol documentation
+data/model_fits/nested_outer_predictions.csv,42,method,"count, index, flag or numerical diagnostic as defined in the field name and protocol documentation"
+data/model_fits/nested_outer_predictions.csv,42,gsm,identifier or categorical label; see data/model_fits and protocol documentation
+data/model_fits/nested_outer_predictions.csv,42,sample_name,identifier or categorical label; see data/model_fits and protocol documentation
+data/model_fits/nested_outer_predictions.csv,42,donor,"count, index, flag or numerical diagnostic as defined in the field name and protocol documentation"
+data/model_fits/nested_outer_predictions.csv,42,true,"count, index, flag or numerical diagnostic as defined in the field name and protocol documentation"
+data/model_fits/nested_outer_predictions.csv,42,predicted,"count, index, flag or numerical diagnostic as defined in the field name and protocol documentation"
+data/model_fits/nested_outer_predictions.csv,42,correct,"count, index, flag or numerical diagnostic as defined in the field name and protocol documentation"
+data/model_fits/nested_outer_predictions.csv,42,minimum_distance,"count, index, flag or numerical diagnostic as defined in the field name and protocol documentation"
+data/model_fits/nested_outer_predictions.csv,42,distance_margin,"count, index, flag or numerical diagnostic as defined in the field name and protocol documentation"
+data/model_fits/nested_outer_predictions.csv,42,selected_signature_size,"count, index, flag or numerical diagnostic as defined in the field name and protocol documentation"
+data/spectral/signature_membership.csv.gz,16935,n_cpg,"count, index, flag or numerical diagnostic as defined in the field name and protocol documentation"
+data/spectral/signature_membership.csv.gz,16935,within_signature_rank,"count, index, flag or numerical diagnostic as defined in the field name and protocol documentation"
+data/spectral/signature_membership.csv.gz,16935,probe_id,identifier or categorical label; see data/model_fits and protocol documentation
+data/spectral/signature_population_marginal_sums.csv,54,n_cpg,"count, index, flag or numerical diagnostic as defined in the field name and protocol documentation"
+data/spectral/signature_population_marginal_sums.csv,54,population,identifier or categorical label; see data/model_fits and protocol documentation
+data/spectral/signature_population_marginal_sums.csv,54,n_donors,"count, index, flag or numerical diagnostic as defined in the field name and protocol documentation"
+data/spectral/signature_population_marginal_sums.csv,54,sum_h_mean_beta_bits,bits under the operational definitions in README and Methods
+data/spectral/signature_rank_diagnostics.csv,9,n_cpg,"count, index, flag or numerical diagnostic as defined in the field name and protocol documentation"
+data/spectral/signature_rank_diagnostics.csv,9,n_discovery_samples,"count, index, flag or numerical diagnostic as defined in the field name and protocol documentation"
+data/spectral/signature_rank_diagnostics.csv,9,n_nonconstant_probes,"count, index, flag or numerical diagnostic as defined in the field name and protocol documentation"
+data/spectral/signature_rank_diagnostics.csv,9,n_constant_excluded,"count, index, flag or numerical diagnostic as defined in the field name and protocol documentation"
+data/spectral/signature_rank_diagnostics.csv,9,centered_rank_cap,"count, index, flag or numerical diagnostic as defined in the field name and protocol documentation"
+data/spectral/signature_rank_diagnostics.csv,9,positive_eigenvalue_threshold,"count, index, flag or numerical diagnostic as defined in the field name and protocol documentation"
+data/spectral/signature_rank_diagnostics.csv,9,largest_eigenvalue,"count, index, flag or numerical diagnostic as defined in the field name and protocol documentation"
+data/spectral/signature_rank_diagnostics.csv,9,smallest_gram_eigenvalue,"count, index, flag or numerical diagnostic as defined in the field name and protocol documentation"
+data/spectral/signature_rank_diagnostics.csv,9,gram_trace,"count, index, flag or numerical diagnostic as defined in the field name and protocol documentation"
+data/spectral/signature_rank_diagnostics.csv,9,retained_rank,"count, index, flag or numerical diagnostic as defined in the field name and protocol documentation"
+data/spectral/signature_rank_diagnostics.csv,9,retained_eigenvalue_sum,"count, index, flag or numerical diagnostic as defined in the field name and protocol documentation"
+data/donor_comparisons/Table_S8A_donor_stratified_MAD.csv,3,stratum,"identifier, category or explicit probability-model label"
+data/donor_comparisons/Table_S8A_donor_stratified_MAD.csv,3,n_cpg,"count, rank, index, ratio or diagnostic as specified in docs/DONOR_COMPARISONS_AND_EXAMPLES.txt"
+data/donor_comparisons/Table_S8A_donor_stratified_MAD.csv,3,n_pairs,"count, rank, index, ratio or diagnostic as specified in docs/DONOR_COMPARISONS_AND_EXAMPLES.txt"
+data/donor_comparisons/Table_S8A_donor_stratified_MAD.csv,3,mean_MAD,beta-fraction distance
+data/donor_comparisons/Table_S8A_donor_stratified_MAD.csv,3,median_MAD,beta-fraction distance
+data/donor_comparisons/Table_S8A_donor_stratified_MAD.csv,3,q1_MAD,beta-fraction distance
+data/donor_comparisons/Table_S8A_donor_stratified_MAD.csv,3,q3_MAD,beta-fraction distance
+data/donor_comparisons/Table_S8B_within_donor_MAD.csv,6,donor_id,"identifier, category or explicit probability-model label"
+data/donor_comparisons/Table_S8B_within_donor_MAD.csv,6,n_types,"count, rank, index, ratio or diagnostic as specified in docs/DONOR_COMPARISONS_AND_EXAMPLES.txt"
+data/donor_comparisons/Table_S8B_within_donor_MAD.csv,6,n_cpg,"count, rank, index, ratio or diagnostic as specified in docs/DONOR_COMPARISONS_AND_EXAMPLES.txt"
+data/donor_comparisons/Table_S8B_within_donor_MAD.csv,6,n_pairs,"count, rank, index, ratio or diagnostic as specified in docs/DONOR_COMPARISONS_AND_EXAMPLES.txt"
+data/donor_comparisons/Table_S8B_within_donor_MAD.csv,6,mean_MAD,beta-fraction distance
+data/donor_comparisons/Table_S8B_within_donor_MAD.csv,6,median_MAD,beta-fraction distance
+data/donor_comparisons/Table_S8B_within_donor_MAD.csv,6,q1_MAD,beta-fraction distance
+data/donor_comparisons/Table_S8B_within_donor_MAD.csv,6,q3_MAD,beta-fraction distance
+data/donor_comparisons/donor_entropy_observations_and_ranks.csv,42,donor_id,"identifier, category or explicit probability-model label"
+data/donor_comparisons/donor_entropy_observations_and_ranks.csv,42,population,"identifier, category or explicit probability-model label"
+data/donor_comparisons/donor_entropy_observations_and_ranks.csv,42,gsm,"identifier, category or explicit probability-model label"
+data/donor_comparisons/donor_entropy_observations_and_ranks.csv,42,n_cpg,"count, rank, index, ratio or diagnostic as specified in docs/DONOR_COMPARISONS_AND_EXAMPLES.txt"
+data/donor_comparisons/donor_entropy_observations_and_ranks.csv,42,mean_h_beta_bits_per_cpg,bits; see exact averaging and conditioning definitions
+data/donor_comparisons/donor_entropy_observations_and_ranks.csv,42,within_donor_rank,"identifier, category or explicit probability-model label"
+data/donor_comparisons/donor_entropy_population_summary.csv,7,population,"identifier, category or explicit probability-model label"
+data/donor_comparisons/donor_entropy_population_summary.csv,7,n_donors,"identifier, category or explicit probability-model label"
+data/donor_comparisons/donor_entropy_population_summary.csv,7,n_cpg,"count, rank, index, ratio or diagnostic as specified in docs/DONOR_COMPARISONS_AND_EXAMPLES.txt"
+data/donor_comparisons/donor_entropy_population_summary.csv,7,mean_of_donor_mean_h_beta,"identifier, category or explicit probability-model label"
+data/donor_comparisons/donor_entropy_population_summary.csv,7,sd_of_donor_mean_h_beta_ddof1,"identifier, category or explicit probability-model label"
+data/donor_comparisons/donor_entropy_population_summary.csv,7,median_of_donor_mean_h_beta,"identifier, category or explicit probability-model label"
+data/donor_comparisons/donor_entropy_population_summary.csv,7,mean_within_donor_rank,"identifier, category or explicit probability-model label"
+data/donor_comparisons/friedman_permutation_null_distribution.csv,342,sum_squared_doubled_rank_sums,"count, rank, index, ratio or diagnostic as specified in docs/DONOR_COMPARISONS_AND_EXAMPLES.txt"
+data/donor_comparisons/friedman_permutation_null_distribution.csv,342,friedman_statistic,"count, rank, index, ratio or diagnostic as specified in docs/DONOR_COMPARISONS_AND_EXAMPLES.txt"
+data/donor_comparisons/friedman_permutation_null_distribution.csv,342,frequency,"count, rank, index, ratio or diagnostic as specified in docs/DONOR_COMPARISONS_AND_EXAMPLES.txt"
+data/donor_comparisons/sample_pairs_with_donor_strata.csv,861,gsm_a,"identifier, category or explicit probability-model label"
+data/donor_comparisons/sample_pairs_with_donor_strata.csv,861,gsm_b,"identifier, category or explicit probability-model label"
+data/donor_comparisons/sample_pairs_with_donor_strata.csv,861,population_a,"identifier, category or explicit probability-model label"
+data/donor_comparisons/sample_pairs_with_donor_strata.csv,861,population_b,"identifier, category or explicit probability-model label"
+data/donor_comparisons/sample_pairs_with_donor_strata.csv,861,donor_a,"identifier, category or explicit probability-model label"
+data/donor_comparisons/sample_pairs_with_donor_strata.csv,861,donor_b,"identifier, category or explicit probability-model label"
+data/donor_comparisons/sample_pairs_with_donor_strata.csv,861,stratum,"identifier, category or explicit probability-model label"
+data/donor_comparisons/sample_pairs_with_donor_strata.csv,861,n_cpg,"count, rank, index, ratio or diagnostic as specified in docs/DONOR_COMPARISONS_AND_EXAMPLES.txt"
+data/donor_comparisons/sample_pairs_with_donor_strata.csv,861,mean_absolute_beta_distance,"count, rank, index, ratio or diagnostic as specified in docs/DONOR_COMPARISONS_AND_EXAMPLES.txt"
+data/illustrative_examples/R7_histogram_bins.csv,50,bin_index_one,"count, rank, index, ratio or diagnostic as specified in docs/DONOR_COMPARISONS_AND_EXAMPLES.txt"
+data/illustrative_examples/R7_histogram_bins.csv,50,left_edge_inclusive,"count, rank, index, ratio or diagnostic as specified in docs/DONOR_COMPARISONS_AND_EXAMPLES.txt"
+data/illustrative_examples/R7_histogram_bins.csv,50,right_edge,"count, rank, index, ratio or diagnostic as specified in docs/DONOR_COMPARISONS_AND_EXAMPLES.txt"
+data/illustrative_examples/R7_histogram_bins.csv,50,right_edge_inclusive,"count, rank, index, ratio or diagnostic as specified in docs/DONOR_COMPARISONS_AND_EXAMPLES.txt"
+data/illustrative_examples/R7_histogram_bins.csv,50,n_cpg,"count, rank, index, ratio or diagnostic as specified in docs/DONOR_COMPARISONS_AND_EXAMPLES.txt"
+data/illustrative_examples/R7_histogram_bins.csv,50,percent_of_eligible_cg_probes,percent of eligible probes
+data/illustrative_examples/Table_S9A_donor_aggregation_examples.csv,2,example,"identifier, category or explicit probability-model label"
+data/illustrative_examples/Table_S9A_donor_aggregation_examples.csv,2,n_constructed_donors,"identifier, category or explicit probability-model label"
+data/illustrative_examples/Table_S9A_donor_aggregation_examples.csv,2,donor_fractions,probability or fraction under the stated model
+data/illustrative_examples/Table_S9A_donor_aggregation_examples.csv,2,mean_fraction,probability or fraction under the stated model
+data/illustrative_examples/Table_S9A_donor_aggregation_examples.csv,2,h_mean_fraction_bits,bits; see exact averaging and conditioning definitions
+data/illustrative_examples/Table_S9A_donor_aggregation_examples.csv,2,mean_donor_h_fraction_bits,bits; see exact averaging and conditioning definitions
+data/illustrative_examples/Table_S9A_donor_aggregation_examples.csv,2,jensen_gap_bits,bits; see exact averaging and conditioning definitions
+data/illustrative_examples/Table_S9B_label_information_examples.csv,2,example,"identifier, category or explicit probability-model label"
+data/illustrative_examples/Table_S9B_label_information_examples.csv,2,P_class_A,probability or fraction under the stated model
+data/illustrative_examples/Table_S9B_label_information_examples.csv,2,P_class_B,probability or fraction under the stated model
+data/illustrative_examples/Table_S9B_label_information_examples.csv,2,P_X1_given_A,probability or fraction under the stated model
+data/illustrative_examples/Table_S9B_label_information_examples.csv,2,P_X1_given_B,probability or fraction under the stated model
+data/illustrative_examples/Table_S9B_label_information_examples.csv,2,H_X_bits,bits; see exact averaging and conditioning definitions
+data/illustrative_examples/Table_S9B_label_information_examples.csv,2,H_X_given_class_bits,bits; see exact averaging and conditioning definitions
+data/illustrative_examples/Table_S9B_label_information_examples.csv,2,I_X_class_bits,bits; see exact averaging and conditioning definitions
+data/illustrative_examples/Table_S9C_joint_marginal_examples.csv,2,example,"identifier, category or explicit probability-model label"
+data/illustrative_examples/Table_S9C_joint_marginal_examples.csv,2,n_binary_sites,"count, rank, index, ratio or diagnostic as specified in docs/DONOR_COMPARISONS_AND_EXAMPLES.txt"
+data/illustrative_examples/Table_S9C_joint_marginal_examples.csv,2,n_positive_probability_patterns,probability or fraction under the stated model
+data/illustrative_examples/Table_S9C_joint_marginal_examples.csv,2,marginal_probabilities,"count, rank, index, ratio or diagnostic as specified in docs/DONOR_COMPARISONS_AND_EXAMPLES.txt"
+data/illustrative_examples/Table_S9C_joint_marginal_examples.csv,2,sum_marginal_entropies_bits,bits; see exact averaging and conditioning definitions
+data/illustrative_examples/Table_S9C_joint_marginal_examples.csv,2,joint_entropy_bits,bits; see exact averaging and conditioning definitions
+data/illustrative_examples/Table_S9C_joint_marginal_examples.csv,2,total_correlation_bits,bits; see exact averaging and conditioning definitions
+data/illustrative_examples/Table_S9D_same_spectrum_different_joint_entropy.csv,2,example,"identifier, category or explicit probability-model label"
+data/illustrative_examples/Table_S9D_same_spectrum_different_joint_entropy.csv,2,n_binary_sites,"count, rank, index, ratio or diagnostic as specified in docs/DONOR_COMPARISONS_AND_EXAMPLES.txt"
+data/illustrative_examples/Table_S9D_same_spectrum_different_joint_entropy.csv,2,n_positive_probability_patterns,probability or fraction under the stated model
+data/illustrative_examples/Table_S9D_same_spectrum_different_joint_entropy.csv,2,marginal_probabilities,"count, rank, index, ratio or diagnostic as specified in docs/DONOR_COMPARISONS_AND_EXAMPLES.txt"
+data/illustrative_examples/Table_S9D_same_spectrum_different_joint_entropy.csv,2,sum_marginal_entropies_bits,bits; see exact averaging and conditioning definitions
+data/illustrative_examples/Table_S9D_same_spectrum_different_joint_entropy.csv,2,joint_entropy_bits,bits; see exact averaging and conditioning definitions
+data/illustrative_examples/Table_S9D_same_spectrum_different_joint_entropy.csv,2,total_correlation_bits,bits; see exact averaging and conditioning definitions
+data/illustrative_examples/Table_S9D_same_spectrum_different_joint_entropy.csv,2,correlation_eigenvalues,"count, rank, index, ratio or diagnostic as specified in docs/DONOR_COMPARISONS_AND_EXAMPLES.txt"
+data/illustrative_examples/Table_S9D_same_spectrum_different_joint_entropy.csv,2,participation_ratio,dimensionless
+data/illustrative_examples/Table_S9D_same_spectrum_different_joint_entropy.csv,2,effective_rank,dimensionless
+data/illustrative_examples/toy_binary_state_class_probabilities.csv,8,example,"identifier, category or explicit probability-model label"
+data/illustrative_examples/toy_binary_state_class_probabilities.csv,8,class,"count, rank, index, ratio or diagnostic as specified in docs/DONOR_COMPARISONS_AND_EXAMPLES.txt"
+data/illustrative_examples/toy_binary_state_class_probabilities.csv,8,binary_state_X,"count, rank, index, ratio or diagnostic as specified in docs/DONOR_COMPARISONS_AND_EXAMPLES.txt"
+data/illustrative_examples/toy_binary_state_class_probabilities.csv,8,joint_probability,probability or fraction under the stated model
+data/illustrative_examples/toy_donor_fractions.csv,12,example,"identifier, category or explicit probability-model label"
+data/illustrative_examples/toy_donor_fractions.csv,12,donor_id,"identifier, category or explicit probability-model label"
+data/illustrative_examples/toy_donor_fractions.csv,12,methylation_fraction,probability or fraction under the stated model
+data/illustrative_examples/toy_donor_fractions.csv,12,h_fraction_bits,bits; see exact averaging and conditioning definitions
+data/illustrative_examples/toy_four_CpG_pattern_probabilities.csv,32,example,"identifier, category or explicit probability-model label"
+data/illustrative_examples/toy_four_CpG_pattern_probabilities.csv,32,binary_pattern,"count, rank, index, ratio or diagnostic as specified in docs/DONOR_COMPARISONS_AND_EXAMPLES.txt"
+data/illustrative_examples/toy_four_CpG_pattern_probabilities.csv,32,probability,probability or fraction under the stated model
+data/illustrative_examples/toy_four_CpG_pattern_probabilities.csv,32,CpG_pattern_T0_C1,"count, rank, index, ratio or diagnostic as specified in docs/DONOR_COMPARISONS_AND_EXAMPLES.txt"
+data/illustrative_examples/toy_three_bit_correlation_matrices.csv,18,example,"identifier, category or explicit probability-model label"
+data/illustrative_examples/toy_three_bit_correlation_matrices.csv,18,site_a,"count, rank, index, ratio or diagnostic as specified in docs/DONOR_COMPARISONS_AND_EXAMPLES.txt"
+data/illustrative_examples/toy_three_bit_correlation_matrices.csv,18,site_b,"count, rank, index, ratio or diagnostic as specified in docs/DONOR_COMPARISONS_AND_EXAMPLES.txt"
+data/illustrative_examples/toy_three_bit_correlation_matrices.csv,18,population_correlation,"identifier, category or explicit probability-model label"
+data/illustrative_examples/toy_three_bit_pattern_probabilities.csv,16,example,"identifier, category or explicit probability-model label"
+data/illustrative_examples/toy_three_bit_pattern_probabilities.csv,16,binary_pattern,"count, rank, index, ratio or diagnostic as specified in docs/DONOR_COMPARISONS_AND_EXAMPLES.txt"
+data/illustrative_examples/toy_three_bit_pattern_probabilities.csv,16,probability,probability or fraction under the stated model
+data/model_fits/evaluated_rank_cutoffs_by_fit.csv,297,model_id,"identifier, category or explicit probability-model label"
+data/model_fits/evaluated_rank_cutoffs_by_fit.csv,297,phase,"identifier, category or explicit probability-model label"
+data/model_fits/evaluated_rank_cutoffs_by_fit.csv,297,outer_fold_index,"count, rank, index, ratio or diagnostic as specified in docs/DONOR_COMPARISONS_AND_EXAMPLES.txt"
+data/model_fits/evaluated_rank_cutoffs_by_fit.csv,297,rank_cutoff,"count, rank, index, ratio or diagnostic as specified in docs/DONOR_COMPARISONS_AND_EXAMPLES.txt"
+data/model_fits/evaluated_rank_cutoffs_by_fit.csv,297,minimum_selected_R,"count, rank, index, ratio or diagnostic as specified in docs/DONOR_COMPARISONS_AND_EXAMPLES.txt"
+data/model_fits/ranked_cpg_identifiers_by_fit.csv.gz,190000,model_id,"identifier, category or explicit probability-model label"
+data/model_fits/ranked_cpg_identifiers_by_fit.csv.gz,190000,phase,"identifier, category or explicit probability-model label"
+data/model_fits/ranked_cpg_identifiers_by_fit.csv.gz,190000,outer_fold_index,"count, rank, index, ratio or diagnostic as specified in docs/DONOR_COMPARISONS_AND_EXAMPLES.txt"
+data/model_fits/ranked_cpg_identifiers_by_fit.csv.gz,190000,rank,"count, rank, index, ratio or diagnostic as specified in docs/DONOR_COMPARISONS_AND_EXAMPLES.txt"
+data/model_fits/ranked_cpg_identifiers_by_fit.csv.gz,190000,probe_id,"identifier, category or explicit probability-model label"
+data/model_fits/ranked_cpg_identifiers_by_fit.csv.gz,190000,R,dimensionless

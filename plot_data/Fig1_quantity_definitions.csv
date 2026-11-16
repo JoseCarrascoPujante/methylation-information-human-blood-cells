@@ -1,0 +1,5 @@
+panel,quantity,unit,definition
+A;C1,H(X)<=N,bits,N specified binary variables; equality for independent fair variables
+B;C2,h(p),bits per CpG,Binary entropy; operational application to array beta
+C3,R_j,dimensionless,Between-cell-type-mean variance divided by its sum with mean within-type donor variance
+C4,I(C;C-hat),bits,Empirical MI of true and held-out predicted labels

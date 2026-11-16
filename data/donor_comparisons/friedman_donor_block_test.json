@@ -1,0 +1,41 @@
+{
+  "test": "Friedman statistic calibrated by within-donor label permutations",
+  "response": "mean over 481737 cg probes of h(beta) for each physical sample",
+  "n_independent_donor_blocks": 6,
+  "n_populations": 7,
+  "donor_order": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "population_order": [
+    "CD4",
+    "CD8",
+    "B",
+    "NK",
+    "Mono",
+    "Neu",
+    "Eos"
+  ],
+  "friedman_statistic": 26.5,
+  "kendalls_w": 0.7361111111111112,
+  "sum_squared_doubled_rank_sums": 19096,
+  "tie_term_sum_t3_minus_t": 0,
+  "tie_correction": 1.0,
+  "permutations": 999999,
+  "seed": 20261104,
+  "generator": "PCG64",
+  "batch_size": 10000,
+  "upper_tail_exceedances_including_ties": 2,
+  "p_value_plus_one": 3e-06,
+  "p_value_formula": "(exceedances + 1)/(permutations + 1)",
+  "monte_carlo_p_resolution": 1e-06,
+  "permutation_unit": "independent permutation of all seven population labels within each donor",
+  "null": "population labels are exchangeable within each of the six donor blocks",
+  "inference_scope": "exploratory global comparison; no pairwise post hoc tests; six donors are the replication units",
+  "rank_comparison": "integer comparison of squared sums of doubled average ranks",
+  "calibration": "Monte Carlo, not exhaustive enumeration and not the chi-square approximation"
+}

@@ -1,0 +1,18 @@
+figure,panels,input_csv,script,quantity_and_units
+Fig1,B,plot_data/Fig1_plot_data.csv,scripts/plot_fig1.py,Exact binary-entropy curve; bits
+Fig1,A;C,plot_data/Fig1_quantity_definitions.csv,scripts/plot_fig1.py,Mathematical definitions; no empirical estimate
+Fig2,A,data/arrays/aggregation_population_summary.csv,scripts/plot_fig2_fig3.py,"Median of h(donor-mean beta), bits per CpG"
+Fig2,B,data/arrays/discovery_R7_values.csv.gz,scripts/plot_fig2_fig3.py,R7 distribution; dimensionless ratio and percentage of probes
+Fig2,C,data/arrays/pairwise_distances.csv,scripts/plot_fig2_fig3.py,"Pairwise MAD/RMS, beta-fraction units; median and IQR"
+Fig2,D,data/model_fits/nested_outer_predictions.csv,scripts/plot_fig2_fig3.py,Nested held-out confusion counts
+Fig2,E,data/model_fits/discovery_fixed_size_predictions.csv.gz,scripts/plot_fig2_fig3.py,Fixed-size discovery accuracy
+Fig3,A;B;C,data/arrays/probe_reproducibility_common_cg.csv.gz,scripts/plot_fig2_fig3.py,"R6, ranked-set overlap and finite pattern correlations"
+Fig3,D;E,data/model_fits/external_individual_predictions.csv.gz,scripts/plot_fig2_fig3.py,External accuracy and exploratory correlation confusion counts
+Fig4,A;B;C,plot_data/Fig4_plot_data.csv,scripts/plot_fig4.py,"Profile bits, dimensionless spectra, empirical label MI"
+S1 Fig,A;B;C,data/model_fits/nested_outer_predictions.csv; data/model_fits/discovery_fixed_size_predictions.csv.gz; data/model_fits/external_individual_predictions.csv.gz,scripts/plot_s1_s2.py,"Size sensitivity, selected size and external accuracy"
+S2 Fig,A;B,data/model_fits/nested_outer_predictions.csv; data/model_fits/external_individual_predictions.csv.gz,scripts/plot_s1_s2.py,Nested and primary Euclidean external confusion counts
+S3 Fig,A;B;C,plot_data/S3_Fig_plot_data.csv; regional/results/pat_donor_site_entropy_points.csv; regional/results/pat_donor_window_entropy_summary.csv,scripts/plot_s3.py,Donor and equally weighted population entropies; bits per CpG or per four-CpG window
+S4 Fig,A;B,plot_data/S4_Fig_design_parameters.csv,scripts/plot_s4.py,Evaluation design parameters
+S5 Fig,A;B;C,data/arrays/aggregation_population_summary.csv; data/arrays/donor_entropy_summary.csv,scripts/plot_s5.py,"Donor aggregation and Jensen differences, bits per CpG"
+S5 Fig,D,data/spectral/signature_full_eigenvalue_spectra.csv,scripts/plot_s5.py,Normalized eigenvalue spectrum; dimensionless
+S6 Fig,all,data/arrays/discovery_R7_values.csv.gz; data/illustrative_examples/R7_histogram_bins.csv,scripts/supporting_distribution_and_examples.py,R7 distribution; dimensionless ratio and percent of eligible probes

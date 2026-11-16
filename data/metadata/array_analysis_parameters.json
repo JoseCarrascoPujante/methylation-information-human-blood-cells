@@ -1,0 +1,43 @@
+{
+  "public_signal_urls": {
+    "discovery": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE35nnn/GSE35069/suppl/GSE35069_Matrix_signal_intensities.txt.gz",
+    "external": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE110nnn/GSE110554/suppl/GSE110554_signals.txt.gz"
+  },
+  "signal_sha256": {
+    "discovery": "3d650bcc644c71180cd34ef04f3ad90a365ce9448d1caa9201d0aeac2ab41424",
+    "external": "d9016aa353772bde1f1354ecb236db4bdf1ac89b6369a4d336cfdd8e66905a97"
+  },
+  "discovery": {
+    "source_rows": 485577,
+    "retained_cg": 481737,
+    "minimum_detected_samples": 40,
+    "selected_samples": 42,
+    "gzip_read_to_eof_passed": true
+  },
+  "external": {
+    "source_rows": 866091,
+    "retained_cg": 861763,
+    "minimum_detected_samples": 35,
+    "selected_samples": 36,
+    "gzip_read_to_eof_passed": true
+  },
+  "common_cg_probes": 448510,
+  "common_profile_precision": "float64 for parsing, beta, cell-type means, variances, R and Pearson correlation",
+  "beta_formula": "M/(M+U+100)",
+  "common_cell_type_order": [
+    "CD4",
+    "CD8",
+    "Mono",
+    "B",
+    "NK",
+    "Neu"
+  ],
+  "variance_definition": "R = sample variance of six cell-type means / (that variance + mean of six within-cell-type sample variances); ddof=1.",
+  "zero_total_variance_R_convention": 0,
+  "undefined_pattern_correlation_ids": [
+    "cg24418853"
+  ],
+  "finite_pattern_correlations": 448509,
+  "discovery_metadata": "data/metadata/discovery_series_samples.json",
+  "external_metadata": "data/metadata/external_array_sample_map.csv"
+}

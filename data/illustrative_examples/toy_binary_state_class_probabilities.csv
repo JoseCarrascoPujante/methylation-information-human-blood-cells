@@ -1,0 +1,9 @@
+example,class,binary_state_X,joint_probability
+equal_class_distributions,A,0,0.25
+equal_class_distributions,A,1,0.25
+equal_class_distributions,B,0,0.25
+equal_class_distributions,B,1,0.25
+unequal_class_distributions,A,0,0.25
+unequal_class_distributions,A,1,0.25
+unequal_class_distributions,B,0,0.5
+unequal_class_distributions,B,1,0.0

@@ -1,0 +1,104 @@
+{
+  "n_samples": 42,
+  "n_donors": 6,
+  "n_types": 7,
+  "n_cpg": 481737,
+  "n_unordered_pairs": 861,
+  "strata": [
+    {
+      "stratum": "same_type_different_donor",
+      "n_cpg": 481737,
+      "n_pairs": 105,
+      "mean_MAD": 0.02951145556017406,
+      "median_MAD": 0.025672878270542966,
+      "q1_MAD": 0.024042439416433373,
+      "q3_MAD": 0.031795255935434176
+    },
+    {
+      "stratum": "different_type_same_donor",
+      "n_cpg": 481737,
+      "n_pairs": 126,
+      "mean_MAD": 0.048180369647671556,
+      "median_MAD": 0.04896994823318128,
+      "q1_MAD": 0.036898094275415814,
+      "q3_MAD": 0.05714066166090298
+    },
+    {
+      "stratum": "different_type_different_donor",
+      "n_cpg": 481737,
+      "n_pairs": 630,
+      "mean_MAD": 0.05311865362123366,
+      "median_MAD": 0.05370625961615198,
+      "q1_MAD": 0.04282859501376545,
+      "q3_MAD": 0.06255939879042048
+    }
+  ],
+  "within_donor_means": [
+    {
+      "donor_id": 1,
+      "n_types": 7,
+      "n_cpg": 481737,
+      "n_pairs": 21,
+      "mean_MAD": 0.058076792886511734,
+      "median_MAD": 0.055889839968893906,
+      "q1_MAD": 0.04758077298137677,
+      "q3_MAD": 0.07510684399959448
+    },
+    {
+      "donor_id": 2,
+      "n_types": 7,
+      "n_cpg": 481737,
+      "n_pairs": 21,
+      "mean_MAD": 0.05023393378360891,
+      "median_MAD": 0.0509569377416249,
+      "q1_MAD": 0.03939229505204562,
+      "q3_MAD": 0.06638522347461635
+    },
+    {
+      "donor_id": 3,
+      "n_types": 7,
+      "n_cpg": 481737,
+      "n_pairs": 21,
+      "mean_MAD": 0.05077142579967964,
+      "median_MAD": 0.05410264907028735,
+      "q1_MAD": 0.042932269144810915,
+      "q3_MAD": 0.0635953366350607
+    },
+    {
+      "donor_id": 4,
+      "n_types": 7,
+      "n_cpg": 481737,
+      "n_pairs": 21,
+      "mean_MAD": 0.04296711647460155,
+      "median_MAD": 0.04632490040380188,
+      "q1_MAD": 0.030551743317331275,
+      "q3_MAD": 0.05138957004169395
+    },
+    {
+      "donor_id": 5,
+      "n_types": 7,
+      "n_cpg": 481737,
+      "n_pairs": 21,
+      "mean_MAD": 0.04139610835378236,
+      "median_MAD": 0.04353285991705155,
+      "q1_MAD": 0.030126665831452567,
+      "q3_MAD": 0.050619000962874576
+    },
+    {
+      "donor_id": 6,
+      "n_types": 7,
+      "n_cpg": 481737,
+      "n_pairs": 21,
+      "mean_MAD": 0.04563684058784517,
+      "median_MAD": 0.04586805281839256,
+      "q1_MAD": 0.03682666649528012,
+      "q3_MAD": 0.05329933592716116
+    }
+  ],
+  "mean_of_six_within_donor_mean_MADs": 0.04818036964767156,
+  "sd_of_six_within_donor_mean_MADs_ddof1": 0.006140743287159818,
+  "definition": "MAD is the mean absolute beta difference across the 481737 eligible cg probes for one sample pair",
+  "aggregation": "Table S8A summarizes pair-specific MADs; Table S8B summarizes 21 between-type pairs separately in each donor",
+  "quantiles": "linear interpolation (NumPy method='linear')",
+  "inference": "descriptive; sample pairs share donors and samples and are not treated as independent replicates"
+}

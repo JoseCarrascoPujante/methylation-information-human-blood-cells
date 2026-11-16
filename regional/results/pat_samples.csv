@@ -1,0 +1,10 @@
+gsm,cell_population,donor,sample_name
+GSM5652279,CD4 T cells,54,Blood-T-CD4-Z000000TT
+GSM5652280,CD4 T cells,51,Blood-T-CD4-Z000000U7
+GSM5652281,CD4 T cells,49,Blood-T-CD4-Z000000UM
+GSM5652316,B cells,54,Blood-B-Z000000TX
+GSM5652317,B cells,51,Blood-B-Z000000UB
+GSM5652318,B cells,49,Blood-B-Z000000UR
+GSM5652302,Monocytes,54,Blood-Monocytes-Z000000TP
+GSM5652303,Monocytes,51,Blood-Monocytes-Z000000U3
+GSM5652304,Monocytes,49,Blood-Monocytes-Z000000UH

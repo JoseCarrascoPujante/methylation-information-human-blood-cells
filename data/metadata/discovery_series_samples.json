@@ -1,0 +1,962 @@
+[
+  {
+    "gsm": "GSM861635",
+    "Sample_title": [
+      "WB_1"
+    ],
+    "Sample_source_name_ch1": [
+      "Whole blood"
+    ],
+    "Sample_characteristics_ch1": [
+      "gender: Male",
+      "tissue/cell type: Whole blood"
+    ],
+    "Sample_description": [
+      "Whole blood obtained from blood donation"
+    ]
+  },
+  {
+    "gsm": "GSM861636",
+    "Sample_title": [
+      "WB_2"
+    ],
+    "Sample_source_name_ch1": [
+      "Whole blood"
+    ],
+    "Sample_characteristics_ch1": [
+      "gender: Male",
+      "tissue/cell type: Whole blood"
+    ],
+    "Sample_description": [
+      "Whole blood obtained from blood donation"
+    ]
+  },
+  {
+    "gsm": "GSM861637",
+    "Sample_title": [
+      "WB_3"
+    ],
+    "Sample_source_name_ch1": [
+      "Whole blood"
+    ],
+    "Sample_characteristics_ch1": [
+      "gender: Male",
+      "tissue/cell type: Whole blood"
+    ],
+    "Sample_description": [
+      "Whole blood obtained from blood donation"
+    ]
+  },
+  {
+    "gsm": "GSM861638",
+    "Sample_title": [
+      "WB_4"
+    ],
+    "Sample_source_name_ch1": [
+      "Whole blood"
+    ],
+    "Sample_characteristics_ch1": [
+      "gender: Male",
+      "tissue/cell type: Whole blood"
+    ],
+    "Sample_description": [
+      "Whole blood obtained from blood donation"
+    ]
+  },
+  {
+    "gsm": "GSM861639",
+    "Sample_title": [
+      "WB_5"
+    ],
+    "Sample_source_name_ch1": [
+      "Whole blood"
+    ],
+    "Sample_characteristics_ch1": [
+      "gender: Male",
+      "tissue/cell type: Whole blood"
+    ],
+    "Sample_description": [
+      "Whole blood obtained from blood donation"
+    ]
+  },
+  {
+    "gsm": "GSM861640",
+    "Sample_title": [
+      "WB_6"
+    ],
+    "Sample_source_name_ch1": [
+      "Whole blood"
+    ],
+    "Sample_characteristics_ch1": [
+      "gender: Male",
+      "tissue/cell type: Whole blood"
+    ],
+    "Sample_description": [
+      "Whole blood obtained from blood donation"
+    ]
+  },
+  {
+    "gsm": "GSM861641",
+    "Sample_title": [
+      "PBMC_1"
+    ],
+    "Sample_source_name_ch1": [
+      "PBMC"
+    ],
+    "Sample_characteristics_ch1": [
+      "gender: Male",
+      "tissue/cell type: PBMC"
+    ],
+    "Sample_description": [
+      "Obtained after Ficol separation and purification"
+    ]
+  },
+  {
+    "gsm": "GSM861642",
+    "Sample_title": [
+      "PBMC_2"
+    ],
+    "Sample_source_name_ch1": [
+      "PBMC"
+    ],
+    "Sample_characteristics_ch1": [
+      "gender: Male",
+      "tissue/cell type: PBMC"
+    ],
+    "Sample_description": [
+      "Obtained after Ficol separation and purification"
+    ]
+  },
+  {
+    "gsm": "GSM861643",
+    "Sample_title": [
+      "PBMC_3"
+    ],
+    "Sample_source_name_ch1": [
+      "PBMC"
+    ],
+    "Sample_characteristics_ch1": [
+      "gender: Male",
+      "tissue/cell type: PBMC"
+    ],
+    "Sample_description": [
+      "Obtained after Ficol separation and purification"
+    ]
+  },
+  {
+    "gsm": "GSM861644",
+    "Sample_title": [
+      "PBMC_4"
+    ],
+    "Sample_source_name_ch1": [
+      "PBMC"
+    ],
+    "Sample_characteristics_ch1": [
+      "gender: Male",
+      "tissue/cell type: PBMC"
+    ],
+    "Sample_description": [
+      "Obtained after Ficol separation and purification"
+    ]
+  },
+  {
+    "gsm": "GSM861645",
+    "Sample_title": [
+      "PBMC_5"
+    ],
+    "Sample_source_name_ch1": [
+      "PBMC"
+    ],
+    "Sample_characteristics_ch1": [
+      "gender: Male",
+      "tissue/cell type: PBMC"
+    ],
+    "Sample_description": [
+      "Obtained after Ficol separation and purification"
+    ]
+  },
+  {
+    "gsm": "GSM861646",
+    "Sample_title": [
+      "PBMC_6"
+    ],
+    "Sample_source_name_ch1": [
+      "PBMC"
+    ],
+    "Sample_characteristics_ch1": [
+      "gender: Male",
+      "tissue/cell type: PBMC"
+    ],
+    "Sample_description": [
+      "Obtained after Ficol separation and purification"
+    ]
+  },
+  {
+    "gsm": "GSM861647",
+    "Sample_title": [
+      "Gran_1"
+    ],
+    "Sample_source_name_ch1": [
+      "Granulocytes"
+    ],
+    "Sample_characteristics_ch1": [
+      "gender: Male",
+      "tissue/cell type: Granulocytes"
+    ],
+    "Sample_description": [
+      "Obtained after Ficol separation and purification of pellet"
+    ]
+  },
+  {
+    "gsm": "GSM861648",
+    "Sample_title": [
+      "Gran_2"
+    ],
+    "Sample_source_name_ch1": [
+      "Granulocytes"
+    ],
+    "Sample_characteristics_ch1": [
+      "gender: Male",
+      "tissue/cell type: Granulocytes"
+    ],
+    "Sample_description": [
+      "Obtained after Ficol separation and purification of pellet"
+    ]
+  },
+  {
+    "gsm": "GSM861649",
+    "Sample_title": [
+      "Gran_3"
+    ],
+    "Sample_source_name_ch1": [
+      "Granulocytes"
+    ],
+    "Sample_characteristics_ch1": [
+      "gender: Male",
+      "tissue/cell type: Granulocytes"
+    ],
+    "Sample_description": [
+      "Obtained after Ficol separation and purification of pellet"
+    ]
+  },
+  {
+    "gsm": "GSM861650",
+    "Sample_title": [
+      "Gran_4"
+    ],
+    "Sample_source_name_ch1": [
+      "Granulocytes"
+    ],
+    "Sample_characteristics_ch1": [
+      "gender: Male",
+      "tissue/cell type: Granulocytes"
+    ],
+    "Sample_description": [
+      "Obtained after Ficol separation and purification of pellet"
+    ]
+  },
+  {
+    "gsm": "GSM861651",
+    "Sample_title": [
+      "Gran_5"
+    ],
+    "Sample_source_name_ch1": [
+      "Granulocytes"
+    ],
+    "Sample_characteristics_ch1": [
+      "gender: Male",
+      "tissue/cell type: Granulocytes"
+    ],
+    "Sample_description": [
+      "Obtained after Ficol separation and purification of pellet"
+    ]
+  },
+  {
+    "gsm": "GSM861652",
+    "Sample_title": [
+      "Gran_6"
+    ],
+    "Sample_source_name_ch1": [
+      "Granulocytes"
+    ],
+    "Sample_characteristics_ch1": [
+      "gender: Male",
+      "tissue/cell type: Granulocytes"
+    ],
+    "Sample_description": [
+      "Obtained after Ficol separation and purification of pellet"
+    ]
+  },
+  {
+    "gsm": "GSM861653",
+    "Sample_title": [
+      "CD4+_1"
+    ],
+    "Sample_source_name_ch1": [
+      "CD4+ T cells"
+    ],
+    "Sample_characteristics_ch1": [
+      "gender: Male",
+      "tissue/cell type: CD4+ T cells"
+    ],
+    "Sample_description": [
+      "anti-CD4 magnetic-activated cell sorting"
+    ]
+  },
+  {
+    "gsm": "GSM861654",
+    "Sample_title": [
+      "CD4+_2"
+    ],
+    "Sample_source_name_ch1": [
+      "CD4+ T cells"
+    ],
+    "Sample_characteristics_ch1": [
+      "gender: Male",
+      "tissue/cell type: CD4+ T cells"
+    ],
+    "Sample_description": [
+      "anti-CD4 magnetic-activated cell sorting"
+    ]
+  },
+  {
+    "gsm": "GSM861655",
+    "Sample_title": [
+      "CD4+_3"
+    ],
+    "Sample_source_name_ch1": [
+      "CD4+ T cells"
+    ],
+    "Sample_characteristics_ch1": [
+      "gender: Male",
+      "tissue/cell type: CD4+ T cells"
+    ],
+    "Sample_description": [
+      "anti-CD4 magnetic-activated cell sorting"
+    ]
+  },
+  {
+    "gsm": "GSM861656",
+    "Sample_title": [
+      "CD4+_4"
+    ],
+    "Sample_source_name_ch1": [
+      "CD4+ T cells"
+    ],
+    "Sample_characteristics_ch1": [
+      "gender: Male",
+      "tissue/cell type: CD4+ T cells"
+    ],
+    "Sample_description": [
+      "anti-CD4 magnetic-activated cell sorting"
+    ]
+  },
+  {
+    "gsm": "GSM861657",
+    "Sample_title": [
+      "CD4+_5"
+    ],
+    "Sample_source_name_ch1": [
+      "CD4+ T cells"
+    ],
+    "Sample_characteristics_ch1": [
+      "gender: Male",
+      "tissue/cell type: CD4+ T cells"
+    ],
+    "Sample_description": [
+      "anti-CD4 magnetic-activated cell sorting"
+    ]
+  },
+  {
+    "gsm": "GSM861658",
+    "Sample_title": [
+      "CD4+_6"
+    ],
+    "Sample_source_name_ch1": [
+      "CD4+ T cells"
+    ],
+    "Sample_characteristics_ch1": [
+      "gender: Male",
+      "tissue/cell type: CD4+ T cells"
+    ],
+    "Sample_description": [
+      "anti-CD4 magnetic-activated cell sorting"
+    ]
+  },
+  {
+    "gsm": "GSM861659",
+    "Sample_title": [
+      "CD8+_1"
+    ],
+    "Sample_source_name_ch1": [
+      "CD8+ T cells"
+    ],
+    "Sample_characteristics_ch1": [
+      "gender: Male",
+      "tissue/cell type: CD8+ T cells"
+    ],
+    "Sample_description": [
+      "anti-CD8 magnetic-activated cell sorting"
+    ]
+  },
+  {
+    "gsm": "GSM861660",
+    "Sample_title": [
+      "CD8+_2"
+    ],
+    "Sample_source_name_ch1": [
+      "CD8+ T cells"
+    ],
+    "Sample_characteristics_ch1": [
+      "gender: Male",
+      "tissue/cell type: CD8+ T cells"
+    ],
+    "Sample_description": [
+      "anti-CD8 magnetic-activated cell sorting"
+    ]
+  },
+  {
+    "gsm": "GSM861661",
+    "Sample_title": [
+      "CD8+_3"
+    ],
+    "Sample_source_name_ch1": [
+      "CD8+ T cells"
+    ],
+    "Sample_characteristics_ch1": [
+      "gender: Male",
+      "tissue/cell type: CD8+ T cells"
+    ],
+    "Sample_description": [
+      "anti-CD8 magnetic-activated cell sorting"
+    ]
+  },
+  {
+    "gsm": "GSM861662",
+    "Sample_title": [
+      "CD8+_4"
+    ],
+    "Sample_source_name_ch1": [
+      "CD8+ T cells"
+    ],
+    "Sample_characteristics_ch1": [
+      "gender: Male",
+      "tissue/cell type: CD8+ T cells"
+    ],
+    "Sample_description": [
+      "anti-CD8 magnetic-activated cell sorting"
+    ]
+  },
+  {
+    "gsm": "GSM861663",
+    "Sample_title": [
+      "CD8+_5"
+    ],
+    "Sample_source_name_ch1": [
+      "CD8+ T cells"
+    ],
+    "Sample_characteristics_ch1": [
+      "gender: Male",
+      "tissue/cell type: CD8+ T cells"
+    ],
+    "Sample_description": [
+      "anti-CD8 magnetic-activated cell sorting"
+    ]
+  },
+  {
+    "gsm": "GSM861664",
+    "Sample_title": [
+      "CD8+_6"
+    ],
+    "Sample_source_name_ch1": [
+      "CD8+ T cells"
+    ],
+    "Sample_characteristics_ch1": [
+      "gender: Male",
+      "tissue/cell type: CD8+ T cells"
+    ],
+    "Sample_description": [
+      "anti-CD8 magnetic-activated cell sorting"
+    ]
+  },
+  {
+    "gsm": "GSM861665",
+    "Sample_title": [
+      "CD14+_1"
+    ],
+    "Sample_source_name_ch1": [
+      "CD14+ Monocytes"
+    ],
+    "Sample_characteristics_ch1": [
+      "gender: Male",
+      "tissue/cell type: CD14+ Monocytes"
+    ],
+    "Sample_description": [
+      "anti-CD14 magnetic-activated cell sorting"
+    ]
+  },
+  {
+    "gsm": "GSM861666",
+    "Sample_title": [
+      "CD14+_2"
+    ],
+    "Sample_source_name_ch1": [
+      "CD14+ Monocytes"
+    ],
+    "Sample_characteristics_ch1": [
+      "gender: Male",
+      "tissue/cell type: CD14+ Monocytes"
+    ],
+    "Sample_description": [
+      "anti-CD14 magnetic-activated cell sorting"
+    ]
+  },
+  {
+    "gsm": "GSM861667",
+    "Sample_title": [
+      "CD14+_3"
+    ],
+    "Sample_source_name_ch1": [
+      "CD14+ Monocytes"
+    ],
+    "Sample_characteristics_ch1": [
+      "gender: Male",
+      "tissue/cell type: CD14+ Monocytes"
+    ],
+    "Sample_description": [
+      "anti-CD14 magnetic-activated cell sorting"
+    ]
+  },
+  {
+    "gsm": "GSM861668",
+    "Sample_title": [
+      "CD14+_4"
+    ],
+    "Sample_source_name_ch1": [
+      "CD14+ Monocytes"
+    ],
+    "Sample_characteristics_ch1": [
+      "gender: Male",
+      "tissue/cell type: CD14+ Monocytes"
+    ],
+    "Sample_description": [
+      "anti-CD14 magnetic-activated cell sorting"
+    ]
+  },
+  {
+    "gsm": "GSM861669",
+    "Sample_title": [
+      "CD14+_5"
+    ],
+    "Sample_source_name_ch1": [
+      "CD14+ Monocytes"
+    ],
+    "Sample_characteristics_ch1": [
+      "gender: Male",
+      "tissue/cell type: CD14+ Monocytes"
+    ],
+    "Sample_description": [
+      "anti-CD14 magnetic-activated cell sorting"
+    ]
+  },
+  {
+    "gsm": "GSM861670",
+    "Sample_title": [
+      "CD14+_6"
+    ],
+    "Sample_source_name_ch1": [
+      "CD14+ Monocytes"
+    ],
+    "Sample_characteristics_ch1": [
+      "gender: Male",
+      "tissue/cell type: CD14+ Monocytes"
+    ],
+    "Sample_description": [
+      "anti-CD14 magnetic-activated cell sorting"
+    ]
+  },
+  {
+    "gsm": "GSM861671",
+    "Sample_title": [
+      "CD19+_1"
+    ],
+    "Sample_source_name_ch1": [
+      "CD19+ B cells"
+    ],
+    "Sample_characteristics_ch1": [
+      "gender: Male",
+      "tissue/cell type: CD19+ B cells"
+    ],
+    "Sample_description": [
+      "anti-CD19 magnetic-activated cell sorting"
+    ]
+  },
+  {
+    "gsm": "GSM861672",
+    "Sample_title": [
+      "CD19+_2"
+    ],
+    "Sample_source_name_ch1": [
+      "CD19+ B cells"
+    ],
+    "Sample_characteristics_ch1": [
+      "gender: Male",
+      "tissue/cell type: CD19+ B cells"
+    ],
+    "Sample_description": [
+      "anti-CD19 magnetic-activated cell sorting"
+    ]
+  },
+  {
+    "gsm": "GSM861673",
+    "Sample_title": [
+      "CD19+_3"
+    ],
+    "Sample_source_name_ch1": [
+      "CD19+ B cells"
+    ],
+    "Sample_characteristics_ch1": [
+      "gender: Male",
+      "tissue/cell type: CD19+ B cells"
+    ],
+    "Sample_description": [
+      "anti-CD19 magnetic-activated cell sorting"
+    ]
+  },
+  {
+    "gsm": "GSM861674",
+    "Sample_title": [
+      "CD19+_4"
+    ],
+    "Sample_source_name_ch1": [
+      "CD19+ B cells"
+    ],
+    "Sample_characteristics_ch1": [
+      "gender: Male",
+      "tissue/cell type: CD19+ B cells"
+    ],
+    "Sample_description": [
+      "anti-CD19 magnetic-activated cell sorting"
+    ]
+  },
+  {
+    "gsm": "GSM861675",
+    "Sample_title": [
+      "CD19+_5"
+    ],
+    "Sample_source_name_ch1": [
+      "CD19+ B cells"
+    ],
+    "Sample_characteristics_ch1": [
+      "gender: Male",
+      "tissue/cell type: CD19+ B cells"
+    ],
+    "Sample_description": [
+      "anti-CD19 magnetic-activated cell sorting"
+    ]
+  },
+  {
+    "gsm": "GSM861676",
+    "Sample_title": [
+      "CD19+_6"
+    ],
+    "Sample_source_name_ch1": [
+      "CD19+ B cells"
+    ],
+    "Sample_characteristics_ch1": [
+      "gender: Male",
+      "tissue/cell type: CD19+ B cells"
+    ],
+    "Sample_description": [
+      "anti-CD19 magnetic-activated cell sorting"
+    ]
+  },
+  {
+    "gsm": "GSM861677",
+    "Sample_title": [
+      "CD56+_1"
+    ],
+    "Sample_source_name_ch1": [
+      "CD56+ NK cells"
+    ],
+    "Sample_characteristics_ch1": [
+      "gender: Male",
+      "tissue/cell type: CD56+ NK cells"
+    ],
+    "Sample_description": [
+      "anti-CD56 magnetic-activated cell sorting"
+    ]
+  },
+  {
+    "gsm": "GSM861678",
+    "Sample_title": [
+      "CD56+_2"
+    ],
+    "Sample_source_name_ch1": [
+      "CD56+ NK cells"
+    ],
+    "Sample_characteristics_ch1": [
+      "gender: Male",
+      "tissue/cell type: CD56+ NK cells"
+    ],
+    "Sample_description": [
+      "anti-CD56 magnetic-activated cell sorting"
+    ]
+  },
+  {
+    "gsm": "GSM861679",
+    "Sample_title": [
+      "CD56+_3"
+    ],
+    "Sample_source_name_ch1": [
+      "CD56+ NK cells"
+    ],
+    "Sample_characteristics_ch1": [
+      "gender: Male",
+      "tissue/cell type: CD56+ NK cells"
+    ],
+    "Sample_description": [
+      "anti-CD56 magnetic-activated cell sorting"
+    ]
+  },
+  {
+    "gsm": "GSM861680",
+    "Sample_title": [
+      "CD56+_4"
+    ],
+    "Sample_source_name_ch1": [
+      "CD56+ NK cells"
+    ],
+    "Sample_characteristics_ch1": [
+      "gender: Male",
+      "tissue/cell type: CD56+ NK cells"
+    ],
+    "Sample_description": [
+      "anti-CD56 magnetic-activated cell sorting"
+    ]
+  },
+  {
+    "gsm": "GSM861681",
+    "Sample_title": [
+      "CD56+_5"
+    ],
+    "Sample_source_name_ch1": [
+      "CD56+ NK cells"
+    ],
+    "Sample_characteristics_ch1": [
+      "gender: Male",
+      "tissue/cell type: CD56+ NK cells"
+    ],
+    "Sample_description": [
+      "anti-CD56 magnetic-activated cell sorting"
+    ]
+  },
+  {
+    "gsm": "GSM861682",
+    "Sample_title": [
+      "CD56+_6"
+    ],
+    "Sample_source_name_ch1": [
+      "CD56+ NK cells"
+    ],
+    "Sample_characteristics_ch1": [
+      "gender: Male",
+      "tissue/cell type: CD56+ NK cells"
+    ],
+    "Sample_description": [
+      "anti-CD56 magnetic-activated cell sorting"
+    ]
+  },
+  {
+    "gsm": "GSM861683",
+    "Sample_title": [
+      "Neu_1"
+    ],
+    "Sample_source_name_ch1": [
+      "Neutrophils"
+    ],
+    "Sample_characteristics_ch1": [
+      "gender: Male",
+      "tissue/cell type: Neutrophils"
+    ],
+    "Sample_description": [
+      "anti-CD16 magnetic-activated cell sorting"
+    ]
+  },
+  {
+    "gsm": "GSM861684",
+    "Sample_title": [
+      "Neu_2"
+    ],
+    "Sample_source_name_ch1": [
+      "Neutrophils"
+    ],
+    "Sample_characteristics_ch1": [
+      "gender: Male",
+      "tissue/cell type: Neutrophils"
+    ],
+    "Sample_description": [
+      "anti-CD16 magnetic-activated cell sorting"
+    ]
+  },
+  {
+    "gsm": "GSM861685",
+    "Sample_title": [
+      "Neu_3"
+    ],
+    "Sample_source_name_ch1": [
+      "Neutrophils"
+    ],
+    "Sample_characteristics_ch1": [
+      "gender: Male",
+      "tissue/cell type: Neutrophils"
+    ],
+    "Sample_description": [
+      "anti-CD16 magnetic-activated cell sorting"
+    ]
+  },
+  {
+    "gsm": "GSM861686",
+    "Sample_title": [
+      "Neu_4"
+    ],
+    "Sample_source_name_ch1": [
+      "Neutrophils"
+    ],
+    "Sample_characteristics_ch1": [
+      "gender: Male",
+      "tissue/cell type: Neutrophils"
+    ],
+    "Sample_description": [
+      "anti-CD16 magnetic-activated cell sorting"
+    ]
+  },
+  {
+    "gsm": "GSM861687",
+    "Sample_title": [
+      "Neu_5"
+    ],
+    "Sample_source_name_ch1": [
+      "Neutrophils"
+    ],
+    "Sample_characteristics_ch1": [
+      "gender: Male",
+      "tissue/cell type: Neutrophils"
+    ],
+    "Sample_description": [
+      "anti-CD16 magnetic-activated cell sorting"
+    ]
+  },
+  {
+    "gsm": "GSM861688",
+    "Sample_title": [
+      "Neu_6"
+    ],
+    "Sample_source_name_ch1": [
+      "Neutrophils"
+    ],
+    "Sample_characteristics_ch1": [
+      "gender: Male",
+      "tissue/cell type: Neutrophils"
+    ],
+    "Sample_description": [
+      "anti-CD16 magnetic-activated cell sorting"
+    ]
+  },
+  {
+    "gsm": "GSM861689",
+    "Sample_title": [
+      "Eos_1"
+    ],
+    "Sample_source_name_ch1": [
+      "Eosinophils"
+    ],
+    "Sample_characteristics_ch1": [
+      "gender: Male",
+      "tissue/cell type: Eosinophils"
+    ],
+    "Sample_description": [
+      "untouched protocol, Eosinophil Isolation kit II (Miltenyi Biotech, Germany)"
+    ]
+  },
+  {
+    "gsm": "GSM861690",
+    "Sample_title": [
+      "Eos_2"
+    ],
+    "Sample_source_name_ch1": [
+      "Eosinophils"
+    ],
+    "Sample_characteristics_ch1": [
+      "gender: Male",
+      "tissue/cell type: Eosinophils"
+    ],
+    "Sample_description": [
+      "untouched protocol, Eosinophil Isolation kit II (Miltenyi Biotech, Germany)"
+    ]
+  },
+  {
+    "gsm": "GSM861691",
+    "Sample_title": [
+      "Eos_3"
+    ],
+    "Sample_source_name_ch1": [
+      "Eosinophils"
+    ],
+    "Sample_characteristics_ch1": [
+      "gender: Male",
+      "tissue/cell type: Eosinophils"
+    ],
+    "Sample_description": [
+      "untouched protocol, Eosinophil Isolation kit II (Miltenyi Biotech, Germany)"
+    ]
+  },
+  {
+    "gsm": "GSM861692",
+    "Sample_title": [
+      "Eos_4"
+    ],
+    "Sample_source_name_ch1": [
+      "Eosinophils"
+    ],
+    "Sample_characteristics_ch1": [
+      "gender: Male",
+      "tissue/cell type: Eosinophils"
+    ],
+    "Sample_description": [
+      "untouched protocol, Eosinophil Isolation kit II (Miltenyi Biotech, Germany)"
+    ]
+  },
+  {
+    "gsm": "GSM861693",
+    "Sample_title": [
+      "Eos_5"
+    ],
+    "Sample_source_name_ch1": [
+      "Eosinophils"
+    ],
+    "Sample_characteristics_ch1": [
+      "gender: Male",
+      "tissue/cell type: Eosinophils"
+    ],
+    "Sample_description": [
+      "untouched protocol, Eosinophil Isolation kit II (Miltenyi Biotech, Germany)"
+    ]
+  },
+  {
+    "gsm": "GSM861694",
+    "Sample_title": [
+      "Eos_6"
+    ],
+    "Sample_source_name_ch1": [
+      "Eosinophils"
+    ],
+    "Sample_characteristics_ch1": [
+      "gender: Male",
+      "tissue/cell type: Eosinophils"
+    ],
+    "Sample_description": [
+      "untouched protocol, Eosinophil Isolation kit II (Miltenyi Biotech, Germany)"
+    ]
+  }
+]

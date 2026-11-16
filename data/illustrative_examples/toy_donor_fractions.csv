@@ -1,0 +1,13 @@
+example,donor_id,methylation_fraction,h_fraction_bits
+polarized_donor_fractions,1,0,0.0
+polarized_donor_fractions,2,0,0.0
+polarized_donor_fractions,3,0,0.0
+polarized_donor_fractions,4,1,0.0
+polarized_donor_fractions,5,1,0.0
+polarized_donor_fractions,6,1,0.0
+identical_intermediate_donor_fractions,1,0.5,1.0
+identical_intermediate_donor_fractions,2,0.5,1.0
+identical_intermediate_donor_fractions,3,0.5,1.0
+identical_intermediate_donor_fractions,4,0.5,1.0
+identical_intermediate_donor_fractions,5,0.5,1.0
+identical_intermediate_donor_fractions,6,0.5,1.0

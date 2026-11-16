@@ -1,0 +1,98 @@
+DONOR COMPARISONS, R7 DISTRIBUTION AND EXACT ENTROPY EXAMPLES
+
+These commands add a donor-block comparison, descriptive donor-stratified
+distances, the R7 histogram and exact illustrative distributions. They take
+numerical array outputs as their inputs. The repository's intensity-to-beta
+and aggregation/distance scripts provide the preceding reconstruction steps.
+No classifier is fitted and no empirical correlation spectrum is recalculated
+by these two scripts.
+
+Dependencies: Python, NumPy and Matplotlib, with the versions in
+requirements.txt. Each command requires a new or empty output directory and
+performs no network access.
+
+From the repository root, with the scripts installed in scripts/:
+
+python scripts/donor_aware_comparisons.py \
+  --donor-values data/arrays/donor_entropy_sample_identities.csv \
+  --sample-metadata data/metadata/discovery_samples.csv \
+  --distances data/arrays/pairwise_distances.csv \
+  --out rebuilt_donor_comparisons \
+  --permutations 999999 --seed 20261104 --batch-size 10000
+
+python scripts/supporting_distribution_and_examples.py \
+  --r-values data/arrays/discovery_R7_values.csv.gz \
+  --out rebuilt_supporting_distribution_and_examples
+
+FIRST COMMAND
+
+The sample metadata must describe 42 unique GSM accessions: six donors, each
+with CD4, CD8, B, NK, Mono, Neu and Eos. The script matches donor summaries and
+all 861 distance pairs to those identities. Each per-sample entropy input is
+the mean of h(beta) over the same 481,737 eligible discovery cg probes.
+
+The exploratory global Friedman comparison uses average ranks of the seven
+values within each donor. Twice these average ranks are integers, including
+when ties occur. The statistic is calibrated by 999,999 Monte Carlo draws
+that independently permute the seven population labels within every donor.
+PCG64 seed 20261104 and batch size 10000 reproduce the supplied run; population
+order is CD4, CD8, B, NK, Mono, Neu, Eos and donor order is 1 through 6. The
+upper-tail comparison includes ties and uses (b+1)/(B+1). The distribution of
+integer squared rank sums is retained with its frequency counts. This avoids
+using an asymptotic chi-square approximation with only six donor blocks.
+It tests the within-donor label-exchangeability null for the donor summaries;
+it neither treats probes as replicates nor tests individual population pairs.
+
+Core outputs:
+  donor_entropy_observations_and_ranks.csv: 42 identified responses and ranks.
+  donor_entropy_population_summary.csv: seven means, sample SDs and mean ranks.
+  friedman_donor_block_test.json: statistic, settings, exceedances and P value.
+  friedman_permutation_null_distribution.csv: Monte Carlo frequency table.
+  Table_S8A_donor_stratified_MAD.csv: three disjoint sample-pair strata.
+  Table_S8B_within_donor_MAD.csv: six summaries, each of 21 between-type pairs.
+  sample_pairs_with_donor_strata.csv: all 861 identified pairs and their MADs.
+  donor_stratified_MAD_summary.json: definitions and full-precision summaries.
+
+MAD means the average absolute beta difference over cg probes for one sample
+pair. Table S8 reports summaries of these already defined pair distances.
+The six within-donor means each average 21 unordered cell-type pairs. Sample
+pairs sharing a sample or donor are not treated as independent replicates.
+Quantiles use NumPy's linear method; donor SD uses denominator n-1.
+
+SECOND COMMAND
+
+The R7 input has columns probe_id and R7, one row for each of 481,737 eligible
+discovery cg probes. All values are finite and between 0 and 1. The histogram
+has 50 fixed bins of width 0.02 and percentage units on the vertical axis.
+Bins include their left edge; only the last bin also includes its right edge.
+The exported histogram data retain counts and the bin boundaries. The median
+and descriptive thresholds 0.5 and 0.8 are indicated. R7 is a variance ratio,
+not a significance P value or an ANOVA eta-squared estimate.
+
+Table S9A enumerates two six-donor fraction lists. Table S9B explicitly lists
+the joint distribution of one binary state and a balanced binary class.
+Table S9C enumerates four-site patterns with independent or concordant calls.
+Table S9D enumerates three independent fair bits and a three-bit XOR system.
+The latter distributions have the same identity correlation matrix and hence
+the same PR and effective rank, but different joint entropies. All moments
+are calculated from the exact probability masses, not estimated from random
+sample draws. Complete probability tables accompany the concise summaries.
+
+Core outputs:
+  S6_Fig.png, S6_Fig.pdf, S6_Fig.svg, S6_Fig_caption.txt.
+  R7_histogram_bins.csv, R7_histogram_summary.json.
+  Table_S9A_donor_aggregation_examples.csv.
+  Table_S9B_label_information_examples.csv.
+  Table_S9C_joint_marginal_examples.csv.
+  Table_S9D_same_spectrum_different_joint_entropy.csv.
+  toy_*.csv: complete fractions, state probabilities and correlation matrices.
+  exact_examples_summary.json.
+
+The uniformly selected-set overlap expectation k^2/N and fold enrichment for
+all reported k are already supplied in data/arrays/overlap_curve.csv. No new
+overlap computation or genomic independence test is needed for these tables.
+
+Technical documentation for the statistical implementation:
+https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.friedmanchisquare.html
+https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.permutation_test.html
+https://numpy.org/doc/stable/reference/random/generated/numpy.random.Generator.permuted.html

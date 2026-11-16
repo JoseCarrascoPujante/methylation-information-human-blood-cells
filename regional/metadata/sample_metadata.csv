@@ -1,0 +1,10 @@
+gsm,sample_name,population,donor_id,cell_type,age,sex,published_sheet,published_excel_row,public_pat_url,regional_counts_available
+GSM5652279,Blood-T-CD4-Z000000TT,CD4,54,T helper(CD4+) cells,56,F,Table S1,105,https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5652nnn/GSM5652279/suppl/GSM5652279_Blood-T-CD4-Z000000TT.hg38.pat.gz,True
+GSM5652280,Blood-T-CD4-Z000000U7,CD4,51,T helper(CD4+) cells,50,M,Table S1,106,https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5652nnn/GSM5652280/suppl/GSM5652280_Blood-T-CD4-Z000000U7.hg38.pat.gz,True
+GSM5652281,Blood-T-CD4-Z000000UM,CD4,49,T helper(CD4+) cells,55,F,Table S1,107,https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5652nnn/GSM5652281/suppl/GSM5652281_Blood-T-CD4-Z000000UM.hg38.pat.gz,True
+GSM5652302,Blood-Monocytes-Z000000TP,Mono,54,Monocytes,56,F,Table S1,128,https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5652nnn/GSM5652302/suppl/GSM5652302_Blood-Monocytes-Z000000TP.hg38.pat.gz,True
+GSM5652303,Blood-Monocytes-Z000000U3,Mono,51,Monocytes,50,M,Table S1,129,https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5652nnn/GSM5652303/suppl/GSM5652303_Blood-Monocytes-Z000000U3.hg38.pat.gz,True
+GSM5652304,Blood-Monocytes-Z000000UH,Mono,49,Monocytes,55,F,Table S1,130,https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5652nnn/GSM5652304/suppl/GSM5652304_Blood-Monocytes-Z000000UH.hg38.pat.gz,True
+GSM5652316,Blood-B-Z000000TX,B,54,B cells,56,F,Table S1,142,https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5652nnn/GSM5652316/suppl/GSM5652316_Blood-B-Z000000TX.hg38.pat.gz,True
+GSM5652317,Blood-B-Z000000UB,B,51,B cells,50,M,Table S1,143,https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5652nnn/GSM5652317/suppl/GSM5652317_Blood-B-Z000000UB.hg38.pat.gz,True
+GSM5652318,Blood-B-Z000000UR,B,49,B cells,55,F,Table S1,144,https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5652nnn/GSM5652318/suppl/GSM5652318_Blood-B-Z000000UR.hg38.pat.gz,True

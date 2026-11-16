@@ -1,0 +1,68 @@
+Command map
+===========
+
+Run commands from the directory containing this file. The destination of a
+calculation must be a new directory; inputs are read-only.
+
+All numerical summaries and all ten figures:
+  python scripts/rebuild_all.py --out rebuilt
+
+Regional calculations from the 18 included candidate-count CSVs:
+  python scripts/recompute_regional_statistics.py --samples-root regional/samples --out rebuilt_regional
+
+R7 summaries, cross-cohort ranks/overlap/correlations and spectral dimensions
+from included observation-level exports and eigenvalues:
+  python scripts/recalculate_export_summaries.py --data data --out rebuilt_summaries
+
+Fig1, mathematical framework and binary-entropy curve:
+  python scripts/plot_fig1.py --out rebuilt_fig1
+
+Fig2 and Fig3, discovery and cross-cohort empirical panels:
+  python scripts/plot_fig2_fig3.py --data data --out rebuilt_fig2_3
+
+Fig4, profile, spectral and label quantities:
+  python scripts/plot_fig4.py --arrays data/arrays/aggregation_population_summary.csv --spectral data/spectral/signature_summary_current.csv --external data/model_fits/external_size_curve.csv --nested data/model_fits/nested_outer_predictions.csv --outdir rebuilt_fig4
+
+S1 and S2 Figs; also regenerate classification metrics from individual predictions:
+  python scripts/plot_s1_s2.py --data data --out rebuilt_classification
+
+S3 Fig, from included nine-sample regional results:
+  python scripts/plot_s3.py --results regional/results --out rebuilt_regional_figure
+
+S4 Fig, evaluation design:
+  python scripts/plot_s4.py --out rebuilt_design
+
+S5 Fig, donor aggregation and eigenvalue spectrum:
+  python scripts/plot_s5.py --data data --out rebuilt_aggregation_spectrum
+
+OPTIONAL COMMANDS WITH PUBLIC RAW INPUTS
+
+The raw files are downloaded independently and are not required for the
+commands above. Source URLs and sample identities are included in metadata.
+Replace raw/... with actual paths to the downloaded files.
+
+Discovery distances from the complete public intensity gzip:
+  python scripts/recompute_discovery_distances.py --signals raw/GSE35069_Matrix_signal_intensities.txt.gz --metadata data/metadata/discovery_series_samples.json --out raw_distance_results
+
+Inspect the external profile of the constant CpG:
+  python scripts/verify_external_constant_probe.py --signals raw/GSE110554_signals.txt.gz --probe cg24418853 --out raw_probe_results
+
+Extract candidate counts from one complete downloaded PAT file (example):
+  python scripts/extract_local_pat_counts.py --gsm GSM5652281 --population CD4 --donor-id 49 --pat raw/GSM5652281_Blood-T-CD4-Z000000UM.hg38.pat.gz --out extracted_GSM5652281
+
+Use the corresponding GSM, population, donor_id and public filename from
+regional/metadata/sample_metadata.csv for the other samples. The extractor
+validates the input gzip to EOF, keeps a valid compact prefix, and writes the
+candidate site/window counts. The regional-statistics command uses all nine
+pairs of count CSVs together; it never substitutes population summaries for
+the individual counts.
+
+Common-probe profiles from independently downloaded raw arrays:
+  python scripts/recompute_common_array_profiles.py --discovery raw/GSE35069_Matrix_signal_intensities.txt.gz --external raw/GSE110554_signals.txt.gz --discovery-metadata data/metadata/discovery_series_samples.json --external-metadata data/metadata/external_array_sample_map.csv --reference-common data/arrays/probe_reproducibility_common_cg.csv.gz --reference-top data/spectral/external_signature_top10000.csv.gz --out raw_common_profiles
+
+
+DONOR COMPARISONS, DISTRIBUTION AND EXACT EXAMPLES
+See docs/DONOR_COMPARISONS_AND_EXAMPLES.txt for the complete commands.
+
+RANKED IDENTIFIERS FOR ALL TRAINING FITS
+python scripts/export_signature_identifiers.py --fits-dir data/model_fits --out rebuilt/signature_identifiers

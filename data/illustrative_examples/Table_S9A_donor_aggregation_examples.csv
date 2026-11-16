@@ -1,0 +1,3 @@
+example,n_constructed_donors,donor_fractions,mean_fraction,h_mean_fraction_bits,mean_donor_h_fraction_bits,jensen_gap_bits
+polarized_donor_fractions,6,0;0;0;1;1;1,0.5,1.0,0.0,1.0
+identical_intermediate_donor_fractions,6,0.5;0.5;0.5;0.5;0.5;0.5,0.5,1.0,1.0,0.0

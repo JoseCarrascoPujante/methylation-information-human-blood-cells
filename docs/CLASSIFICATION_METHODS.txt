@@ -1,0 +1,144 @@
+ARRAY CLASSIFICATION: COMPUTATIONAL METHODS
+=========================================
+
+Inputs and sample identities
+---------------------------
+
+The discovery dataset is GSE35069. Its 42 purified samples comprise seven
+cell populations for each of six donors: CD4 T cells, CD8 T cells, monocytes,
+B cells, natural killer cells, neutrophils and eosinophils. Source matrix
+columns SAMPLE 19–60 are joined explicitly to their GSM accessions, sample
+titles, populations and donor suffixes 1–6. Every donor contributes one
+sample per population.
+
+The external dataset is GSE110554. Twelve artificial mixtures and technical
+replicate Th2535-2 are excluded. The 36 included samples represent the six
+shared cell populations, with six samples per population. External sample
+names, GSM accessions and array identifiers are retained. No number of
+distinct external donors is inferred from the sample count.
+
+The supplied metadata files are data/metadata/discovery_series_samples.json
+and data/metadata/external_array_sample_map.csv. Source URLs, compressed
+file sizes and SHA256 digests are recorded in config/array_sources.json.
+
+Beta values and probe eligibility
+---------------------------------
+
+For each sample, beta = M / (M + U + 100), where M and U are the methylated
+and unmethylated signal intensities. Parsing and arithmetic use float64.
+Probe identifiers must start with cg. Detection P must be below 0.01 in
+at least 40 of the 42 discovery samples, retaining 481,737 discovery probes;
+the external criterion is at least 35 of 36 samples, retaining 861,763
+external probes. Their intersection contains 448,510 probes.
+
+Eligibility is a global, label-independent filter. Nested and fixed-size
+discovery models use the eligible discovery set. External-transfer models
+use the common set. Feature ranking and class-centroid estimation use only
+the samples designated for model training.
+
+Variance ranking and centroids
+------------------------------
+
+For every training class, compute the mean beta profile and the sample
+variance across its samples, using ddof=1. V_within is the equally weighted
+mean of the class variances. V_between is the sample variance of the class
+mean beta values, also with ddof=1.
+
+R = V_between / (V_between + V_within), with R=0 for a zero denominator.
+Rank probes by decreasing R and ascending probe identifier for exact R
+ties. Seven classes enter discovery rankings; the six shared discovery
+classes enter external-transfer ranking.
+
+A class centroid is the arithmetic mean beta profile of its training
+samples. Classification uses beta values without feature standardization.
+Euclidean prediction minimizes the sum of squared differences from the
+class centroids. Correlation prediction minimizes one minus Pearson
+correlation across signature coordinates.
+
+Nested donor-held-out validation
+-------------------------------
+
+The six outer folds are ordered by ascending donor suffix. In each fold,
+all seven samples of one donor form the outer test set and the remaining
+five donors form the outer training set.
+
+Each of the five inner folds holds out one of those training donors for
+validation. Ranking and centroids are fitted on the remaining four donors.
+Candidate signature sizes are 10, 25, 50, 100, 250, 500, 1,000 and 5,000.
+The size maximizing mean inner balanced accuracy is selected, with ties
+resolved in favor of the smallest size.
+
+Each inner validation donor contributes one sample of every class. The
+mean inner balanced accuracy therefore equals the correct count among
+the 35 pooled inner validation predictions divided by 35. Selection
+uses that integer count to compare mathematically equal scores exactly.
+
+After size selection, R and centroids are fitted on all five outer
+training donors. The selected signature is evaluated on the seven outer
+test samples. Outer test labels enter only the final evaluation. Inner
+validation labels are used to compare candidate sizes.
+
+Fixed-size discovery evaluation
+------------------------------
+
+The same six outer donor partitions are used to evaluate every stated
+fixed size. Each model ranks features and estimates centroids from the
+five training donors. The fixed-size analyses have no inner size-selection
+step and are reported separately from the nested procedure.
+
+External transfer
+-----------------
+
+Ranking and centroids are estimated on the 36 discovery samples from the
+six shared populations, restricted to the 448,510 common probes. The first
+100 ranked CpGs define the primary Euclidean evaluation. The correlation
+rule is exploratory.
+
+The evaluated external signature sizes are 10, 25, 50, 100, 250, 500, 1,000,
+5,000 and 10,000. The external curves describe sensitivity to signature
+size. External labels do not enter feature ranking, centroid estimation,
+signature-size selection or distance choice.
+
+Evaluation quantities and unresolved decisions
+----------------------------------------------
+
+Accuracy is the fraction of correct predictions. Balanced accuracy is the
+unweighted mean of true-class recall. Empirical label mutual information
+uses the normalized true/predicted confusion counts and base-two logarithms;
+zero joint-probability terms contribute zero.
+
+Exact ties between minimum class distances stop the calculation with a
+diagnostic. Correlation also stops if a sample or centroid is constant
+across signature coordinates. These cases require an explicit scientific
+rule before a class can be assigned. The software does not choose an
+arbitrary class or substitute a value for an undefined correlation.
+
+Class order for exported matrices is CD4, CD8, Mono, B, NK, Neu and Eos,
+with Eos omitted from external evaluation. A unique nearest-centroid
+decision does not depend on this output order.
+
+Cache and numerical outputs
+---------------------------
+
+The beta cache uses orientation probes by samples. Its eight payloads are:
+
+  discovery_beta.npy: float64, 481,737 by 42.
+  discovery_probe_ids.csv.gz: probe identifiers in discovery matrix row order.
+  discovery_samples.csv: GSM, sample name, population, donor and source column.
+  common_discovery_indices.npy: int64 indices into discovery rows.
+  common_probe_ids.csv.gz: the 448,510 corresponding common identifiers.
+  external_common_beta.npy: float64, 448,510 by 36, aligned to common IDs.
+  external_samples.csv: external identities in matrix column order.
+  external_eligible_probe_ids.csv.gz: all 861,763 eligible external IDs.
+
+cache_manifest.json records the schema, dimensions, precision, parameters,
+input digests and a SHA256 digest and byte count for each payload. Complete
+outputs are published by atomic directory renaming after file closure,
+synchronization and verification. Existing input directories are preserved.
+
+The model output includes individual inner, nested, fixed-size and external
+predictions with GSM identifiers; all inner selection scores; probe rankings;
+class centroids; sample membership for every fitted model; class distances;
+confusion counts; accuracy, balanced accuracy and empirical mutual information.
+Fitted-model archives contain training GSMs, feature identifiers, ranking
+scores, class order and centroids.

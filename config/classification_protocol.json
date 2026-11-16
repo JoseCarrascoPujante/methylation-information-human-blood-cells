@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "protocol_name": "Methylation cell-type recognition from array intensities",
+  "protocol_frozen_before_fitting": true,
+  "arithmetic": "float64",
+  "beta_offset": 100.0,
+  "discovery": {
+    "accession": "GSE35069",
+    "classes": ["CD4", "CD8", "Mono", "B", "NK", "Neu", "Eos"],
+    "n_samples": 42,
+    "donor_ids": [1, 2, 3, 4, 5, 6],
+    "probe_prefix": "cg",
+    "detection_p_strictly_less_than": 0.01,
+    "minimum_detected_samples": 40,
+    "expected_eligible_probes": 481737
+  },
+  "external": {
+    "accession": "GSE110554",
+    "classes": ["CD4", "CD8", "Mono", "B", "NK", "Neu"],
+    "n_samples": 36,
+    "probe_prefix": "cg",
+    "detection_p_strictly_less_than": 0.01,
+    "minimum_detected_samples": 35,
+    "expected_eligible_probes": 861763,
+    "expected_common_probes": 448510,
+    "primary_signature_size": 100,
+    "primary_distance": "euclidean",
+    "exploratory_distance": "correlation",
+    "candidate_sizes": [10, 25, 50, 100, 250, 500, 1000, 5000, 10000]
+  },
+  "ranking": {
+    "formula": "variance of training class means / (variance of training class means + mean training within-class variance)",
+    "variance_ddof": 1,
+    "zero_denominator_value": 0.0,
+    "sort": ["R descending", "probe_id ascending"]
+  },
+  "nested": {
+    "outer_group": "discovery donor_id",
+    "outer_order": "donor_id ascending",
+    "inner_group": "remaining discovery donor_id",
+    "candidate_sizes": [10, 25, 50, 100, 250, 500, 1000, 5000],
+    "selection_score": "mean inner balanced accuracy; equal to pooled inner balanced accuracy for the balanced folds",
+    "selection_score_implementation": "maximize integer correct count among the 35 inner validation predictions",
+    "size_tie_break": "smallest candidate size"
+  },
+  "fixed_size": {
+    "validation": "leave one discovery donor out",
+    "candidate_sizes": [10, 25, 50, 100, 250, 500, 1000, 5000],
+    "selection": "none; each stated size evaluated separately"
+  },
+  "classifier": {
+    "centroid": "arithmetic mean beta value for each class using training samples only",
+    "feature_standardization": "none",
+    "euclidean_prediction": "minimum sum of squared beta differences",
+    "correlation_prediction": "minimum one minus Pearson correlation across the signature coordinates",
+    "exact_class_distance_tie": "stop and report the unresolved tie; do not choose an arbitrary class",
+    "undefined_correlation": "stop and report the constant vector; do not replace correlation by zero"
+  },
+  "evaluation": {
+    "accuracy": "correct predictions / evaluated samples",
+    "balanced_accuracy": "unweighted mean recall over true classes",
+    "mutual_information": "plug-in mutual information of true/predicted labels from normalized confusion counts, log base 2",
+    "external_size_optimization": false,
+    "independent_donor_count_assumed_for_external": false
+  }
+}

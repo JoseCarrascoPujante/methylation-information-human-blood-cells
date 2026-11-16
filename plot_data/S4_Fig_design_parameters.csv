@@ -1,0 +1,13 @@
+component,parameter,value
+discovery,donors,6
+discovery,cell_types,7
+discovery,samples,42
+discovery,outer_training_donors,5
+discovery,outer_test_donors,1
+discovery,inner_training_donors,4
+discovery,inner_validation_donors,1
+external,shared_cell_types,6
+external,discovery_samples,36
+external,external_samples,36
+external,shared_cg_probes,448510
+external,signature_cpgs,100
